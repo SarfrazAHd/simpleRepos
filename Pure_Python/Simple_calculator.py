@@ -1,3 +1,7 @@
+
+print("****************************")
+print("Welcome to Python Programming!")
+
 def add(x, y):
     return x + y
 
@@ -48,4 +52,7 @@ elif choice == 4:
 
 else:
     print("you have entered out of the choice !!")
+    
+print("Thanks for giving ur expensive time here !!")
+print("****************************")
 
