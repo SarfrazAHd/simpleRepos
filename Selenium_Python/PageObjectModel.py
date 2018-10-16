@@ -1,10 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
 from time import sleep
 import datetime
 import unittest
-
+from Selenium_Python import LoginPage
+from Selenium_Python import HomePage
 
 class MyTestCase(unittest.TestCase):
 
@@ -12,28 +12,25 @@ class MyTestCase(unittest.TestCase):
     def setUp(cls):
         cls.driver=webdriver.Chrome("C:\Selenium_Webdrivers\chromedriver.exe") # Place you Selenium Webdriver loacation here!!!
         print("*****************************************************************")
-        print("Test started at " + str(datetime.timedelta.now()))
+        print("Test started at " + str(datetime.datetime.now()))
 
 
     def test_hrm(self):
-        self.driver.get("https://opensource-demo.orangehrmlive.com")
-        self.driver.maximize_window()
-        self.driver.implicityl_wait(10)
-        self.driver.find_element_by_id("txtUsername").send_keys("Admin")
-        self.driver.find_element_by_id("txtPassword").send_keys("admin123")
-        self.driver.find_element_by_id("btnLogin").click()
+        driver=self.driver
+        driver.get("https://opensource-demo.orangehrmlive.com")
+        driver.maximize_window()
+        driver.implicityl_wait(10)
 
-        sleep(10)
-        self.driver.find_element_by_id("welcome").click()
-        self.driver.find_element_by_link_text("logout").click()
+# Page Object model for the LoginPage
+        login=LoginPage(driver)
+        login.enter_userName("Admin")
+        login.enter_password("admin123")
+        login.click_login()
 
-
-
-      #Remaining test Keysqord will come here and you can extend this  according the complexity of your testcases
-
-        #your code will be here .......
-
-
+# Page object model for the Dashboard and Logout page.
+        home=HomePage(driver)
+        home.click_Welcome()
+        home.click_Logout()
 
 
 
