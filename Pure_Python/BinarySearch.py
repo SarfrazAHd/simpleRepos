@@ -36,11 +36,11 @@ def BSearch(a, b):
             globals()['position'] = mid
             return True
         else:
-            if mid < y:
+            if itm[mid] < y:
                 l = mid
 
             else:
-                mid = u
+                u = mid 
 
     return False
 
