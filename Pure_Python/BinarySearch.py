@@ -46,7 +46,7 @@ def BSearch(a, b):
 
 
 
-itm = [2,3,4,20,23,46,57,60,65]
+itm = [2,3,4,20,23,46,57,60,65]                 # In Binary Search All element Should be in sorted List. 
 y = int(input("Enter searching Element:"))
 
 
