@@ -1,5 +1,5 @@
 
-# Linear Search Using For loo
+# Linear Search Using For loop
 
 pos=-1
 def Search(a,b):
