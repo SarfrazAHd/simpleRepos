@@ -36,17 +36,17 @@ def BSearch(a, b):
             globals()['position'] = mid
             return True
         else:
-            if mid < y:
+            if itm[mid] < y:
                 l = mid
 
             else:
-                mid = u
+                u = mid 
 
     return False
 
 
 
-itm = [2,3,4,20,23,46,57,60,65]
+itm = [2,3,4,20,23,46,57,60,65]                 # In Binary Search All element Should be in sorted List. 
 y = int(input("Enter searching Element:"))
 
 
