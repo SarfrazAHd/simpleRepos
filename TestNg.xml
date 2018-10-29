@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Sample test Suite">
+   <test name="Sample test">
+   	<parameter name="instanceURL" value="http://10.11.95.39:16001"/>
+   	<parameter name="appName" value="TestNG Created Me"/>
+    <classes>
+      <class name="CreateAnApp" />
+    </classes>
+  </test>
+</suite>
