@@ -1,0 +1,39 @@
+							Basic Commands for docker 
+
+
+
+you can the get  description of  all commands by typing - " Docker --help "
+
+
+1 -	 docker -v or docker --version    				# it will  tell you the description of docker version
+
+2 -	docker version 					#  Description about docker engine 
+
+3 -	docker login 					# Login to Docker hub repository
+
+4 -	docker run  " image id "					#  it will run local image present in your docker system
+
+5 -	docker image ls  or    docker image -a    			# List out the all presented image in our system. 
+
+6 - 	docker image -q					# It will return you only image id of every image
+
+7 -    	docker ps 						# ps for process- it will return  only Running containers
+
+8  -	docker ps -a 					#  it will list out all container both running and non-running.
+
+9  -	docker start  " container id /Name "				# it will start a  container	
+
+10 -	docker stop" container id /Name "				# it will stop a running acontainer		
+
+11  -	docker rm ''Container id  "				# Removing one or more containers
+
+12  -	dcocker rmi  " image  id "				# Removing one or more docker images
+	
+13  -   	dock build  "give name to your image " " location of docker file"	# It will build your custom image from you docker file
+ 
+14 - 	docker run --name "give name to your cotainer" -it   "images"	# Running a docker images like ubnut or something els:
+
+15 -	docker run -p 1010 (port) : 80 nginx (image )			# Exposing port or deploying images the browser
+
+
+

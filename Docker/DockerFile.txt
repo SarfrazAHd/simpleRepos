@@ -1,0 +1,24 @@
+							Working with DockerFile
+
+
+Creating a docker file , Keywords::
+
+
+FROM       	 	 #  Specfify image name
+
+MAINTAINER 		#Optional   Your name and   " < emailid@gmail.com > "
+
+CMD			# Command you want execute on your terminal After pulling the image.  
+
+RUN 			# Command you want to Run at time of running this image.
+
+and many more Keywords ..
+
+
+
+
+Building image from Dockerfile
+
+command:     	docker  build  -t ''image name in lowercase" : "Tage" and  '' location of  Dockerfile"       	#  -t for specifying Tag 
+
+		

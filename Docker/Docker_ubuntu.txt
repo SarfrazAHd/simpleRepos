@@ -1,0 +1,27 @@
+
+
+							Downloading docker in ubuntu
+
+
+  step1  :    Updtae your system first
+
+                sudo apt-get update
+
+    step2 :   Install docker by typing these commands -
+
+                apt install docker.io                               			# sudo you can use by the way i didn't use, in both the cases it will work.
+
+    step3 :  After this Command check the download done or not
+           
+              ubuntu@ip-172-31-42-184:~$ docker --version
+
+              Docker version 17.03.2-ce, build f5ec1e2                                           # and you are done !! Congrats docker has been succesfully installed in your system.
+
+
+
+
+
+
+
+
+
