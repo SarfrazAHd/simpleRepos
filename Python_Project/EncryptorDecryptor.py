@@ -6,7 +6,7 @@ import random
 
 root = Tk()
 root.title("EncryptorDecryptor")
-root.iconbitmap(r'C:/Users/Nizam/Downloads/lock.ico')
+root.iconbitmap(r'C:/Users/Nizam/Downloads/lock.ico')       # give the location of your current *.ico image for title icon 
 
 # width x height + x_offset + y_offset:
 root.geometry("630x350+35+35")
