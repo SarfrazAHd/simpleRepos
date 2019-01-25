@@ -1,2 +1,2 @@
 # simpleRepos
-# a collection of python and DevOps series
+a collection of python and DevOps series ...
