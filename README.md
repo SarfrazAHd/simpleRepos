@@ -1,2 +1,2 @@
 # simpleRepos
-Very scratch Project
+# a collection of python and DevOps series
