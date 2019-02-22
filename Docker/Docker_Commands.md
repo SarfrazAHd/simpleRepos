@@ -1,9 +1,9 @@
-#Basic Commands for docker 
+# Basic Commands for docker 
 
 
 you can the get  description of  all commands by typing - " Docker --help "
 
- it will  tell you the description of docker version
+ # it will  tell you the description of docker version
 
 >> 1 -	 docker -v or docker --version    					
 
