@@ -2,7 +2,7 @@
 
 
 
-# Docker   is  an   OS-level   virtualiztion    platform  that  provide  to a doverloper or an IT  administrator  to  run and ship  			their application into  a container with all their dependency and library files.
+ Docker   is  an   OS-level   virtualiztion    platform  that  provide  to a doverloper or an IT  administrator  to  run and ship  			their application into  a container with all their dependency and library files.
 
 
 
@@ -14,11 +14,17 @@
 
 
 
+
+
 Docker Engine 	 	:      Docker client and server communicate  to each other  Using   REST Api   and this  whole  system known  as 				Docker engine or docker daemon as well.  
 
 
 
+
+
 DockerFiles    	 	:      Docker  files are basic instruction written in text foramt to creat an image  
+
+
 
 
 
@@ -30,18 +36,26 @@ Docker repository	:      Where the docker all   docker images place.
 
 
 
+
+
 Docker Container	:      Docker container are set of executabale package that contain all library and dependency for a particular
 	
-	            	         application to running efficiently in different-different  environmenet.
+	  		      application to running efficiently in different-different  environmenet.
 	
-	            	         and this is also known as, - Docker containers are running instance of docker image	 
+	            	       and this is also known as, - Docker containers are running instance of docker image	 
+
+
 
 
 
 Docker Compose 		:       Docker-compose is a tool for defininng and running multi containe docker application.
 
 
+
+
 Docker volume		:       Docker  voulme  preferred   as  mechanism  to  persist data  generated  and used by a container.
+
+
 
 
 Docker Swarm 	 	:      Docker swarm is a , clustering and scheduling tool  for docker container.  
@@ -49,7 +63,9 @@ Docker Swarm 	 	:      Docker swarm is a , clustering and scheduling tool  for d
 
 
 
+
 Downloading docker in ubuntu
+
 
 
   step1  :    Updtae your system first
@@ -57,10 +73,12 @@ Downloading docker in ubuntu
             >> sudo apt-get update
 
 
+
    step2 :   Install docker by typing these commands -
 
             >> apt install docker.io                          
 		
+
 
    step3 :  After this Command check the download done or not
            
@@ -68,6 +86,7 @@ Downloading docker in ubuntu
     
 	    >> Docker version 17.03.2-ce, build f5ec1e2                          
 	      
+  
   
   and you are done !! Congrats docker has been succesfully installed in your system
 
@@ -84,8 +103,10 @@ Downloading docker in ubuntu
 Creating a docker file , Keywords::
 
 
+
 # FROM       	 	   
 Specfify image name
+
 
 
 
@@ -111,9 +132,9 @@ and many more Keywords ..
 
 # Building image from Dockerfile
 
-	command:  docker  build  -t ''image name in lowercase" : "Tage" and  '' location of  Dockerfile"       		
+	>>  docker  build  -t ''image name in lowercase" : "Tage" and  '' location of  Dockerfile"       		
 			
-			# -t for specifying Tag 
+	# -t for specifying Tag 
 
 
 
