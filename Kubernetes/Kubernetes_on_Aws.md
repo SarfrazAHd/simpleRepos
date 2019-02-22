@@ -140,9 +140,9 @@ http://master dns/ui
 
 # 13.
 
-  >> kubectl expose deployment hello-minikube --type=NodePort
+    >> kubectl expose deployment hello-minikube --type=NodePort
 
-  >>  kubectl get service
+    >>  kubectl get service
 
 https://master-dns:nodeport/
 
