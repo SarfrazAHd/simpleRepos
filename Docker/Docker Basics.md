@@ -26,7 +26,7 @@ Docker client and server communicate  to each other  Using   REST Api   and this
 
 # DockerFiles    	 	    
 
-Docker  files are basic instruction written in text foramt to creat an image  
+Docker  files are basic instruction written in text foramt to create an image  
 
 
 
@@ -98,7 +98,7 @@ Docker swarm is a , clustering and scheduling tool  for docker container.
            
             >> ubuntu@ip-172-31-42-184:~$ docker --version
     
-	    >> Docker version 17.03.2-ce, build f5ec1e2                          
+	     Docker version 17.03.2-ce, build f5ec1e2                          
 	      
   
   
@@ -148,7 +148,7 @@ and many more Keywords ..
 
 	>>  docker  build  -t ''image name in lowercase" : "Tage" and  '' location of  Dockerfile"       		
 			
-	# -t for specifying Tag 
+	 # -t for specifying Tag 
 
 
 
