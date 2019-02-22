@@ -1,0 +1,79 @@
+# Pre-requisites
+1. Docker 1.13 or higher
+2. Docker Machine (pre installed for Windows and  Mac)
+
+# Step 1 :  Create Docker machines    (Create one machine as manager and others as workers)
+>>  docker-machine create --driver virtualbox manager1
+>>  docker-machine create --driver virtualbox worker1
+>>  docker-machine create --driver virtualbox worker2
+
+# Step 2 :  Check machine created successfully
+>> docker-machine ls
+>> docker-machine ip manager1
+
+# Step 3 :  SSH (connect) to docker machine
+>>  docker-machine ssh manager1
+
+
+# Step 4 :  Initialize Docker Swarm    
+>> docker swarm init --advertise-addr MANAGER_IP
+>>  docker node ls    (this command will work only in swarm manager and not in worker)
+   
+   
+# Step 5 :  Join workers in the swarm
+In manager node run command  docker swarm join-token worker
+This will give command to join swarm as worker
+
+>> docker swarm join-token manager
+    
+This will give command to join swarm as manager
+SSH into worker node (machine) and run command to join swarm as worker
+   
+In Manager Run command - 
+>> docker node ls 				
+
+
+# Step 6 :  On manager run standard docker commands
+
+>> docker info      			 
+>> docker swarm
+
+
+Step 7 :  Run containers on Docker Swarm
+
+>> docker service create --replicas 3 -p 80:80 --name serviceName nginx
+
+Check the status:    
+>> docker service ls
+>> docker service ps serviceName
+   
+ Check the service running on all nodes
+ Check on the browser by giving ip for all nodes
+
+
+# Step 8 :  Scale service up and down On manager node 
+>>  docker service scale serviceName=2
+ 
+# Inspecting Nodes (this command can run only on manager node)
+>> docker node inspect nodename
+>> docker node inspect self
+>> docker node inspect worker1
+
+
+# Step 9 : Shutdown node
+>> docker node update --availability drain worker1
+
+
+# Step 10 :  Update service
+>> docker service update --image imagename:version web
+>> docker service update --image nginx:1.14.0 serviceName
+
+
+# Step 11 :  Remove service
+>> docker service rm serviceName
+
+
+To leave the swarm run commands on every worker node
+>>  docker swarm leave 
+>>  docker-machine stop machineName 		  to stop the machine
+>> docker-machine rm machineName 		      to remove the machine
