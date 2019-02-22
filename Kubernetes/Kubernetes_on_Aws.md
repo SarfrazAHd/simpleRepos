@@ -4,20 +4,20 @@
 
 # 2. kops binary download
 
->> curl -LO https://github.com/kubernetes/kops/releases/download/$(curl https://api.github.com/repos/kubernetes/kops/releases/latest      grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
+    >> curl -LO https://github.com/kubernetes/kops/releases/download/$(curl https://api.github.com/repos/kubernetes/kops/releases/latest      grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
 
-`>> chmod +x kops-linux-amd64
->> sudo mv kops-linux-amd64 /usr/local/bin/kops
+    >> chmod +x kops-linux-amd64
+    >> sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 
 
 # 3. aws cli setup to enable ubuntu to interact with aws.
 
-  >>  apt-get update
-  >>  apt-get install -y python-pip 
-  >>  pip install awscli
+    >>  apt-get update
+    >>  apt-get install -y python-pip 
+    >>  pip install awscli
 
-  >> aws --version
+    >> aws --version
 
 
 
@@ -34,7 +34,7 @@ Give access & security access key details here..
 
 
 # 5. kubectl installation
-
+    
     >>  curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 
     >>  echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
