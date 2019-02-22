@@ -69,7 +69,8 @@ Step 4: Install kubectl on Ubuntu 18.04
          
 # if you get an error using minikube  dashboard command 
 
-fire this command -	 
+fire this command -
+
 		>>  sudo apt-get install xdg-utils --fix-missing
 
 
