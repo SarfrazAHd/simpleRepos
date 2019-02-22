@@ -16,71 +16,85 @@
 
 
 
-Docker Engine 	 	:      Docker client and server communicate  to each other  Using   REST Api   and this  whole  system known  as 				Docker engine or docker daemon as well.  
+# Docker Engine 	 	  
+
+Docker client and server communicate  to each other  Using   REST Api   and this  whole  system known  as 				Docker engine or docker daemon as well.  
 
 
 
 
 
-DockerFiles    	 	:      Docker  files are basic instruction written in text foramt to creat an image  
+# DockerFiles    	 	    
+
+Docker  files are basic instruction written in text foramt to creat an image  
 
 
 
 
 
-Docker Image	  	:      Docker image  are templates come in use to create Docker container 
+# Docker Image	  	
+
+Docker image  are templates come in use to create Docker container 
 
 
 
-Docker repository	:      Where the docker all   docker images place.
+# Docker repository	
 
-
-
-
-
-Docker Container	:      Docker container are set of executabale package that contain all library and dependency for a particular
-	
-	  		      application to running efficiently in different-different  environmenet.
-	
-	            	       and this is also known as, - Docker containers are running instance of docker image	 
+Where the docker all   docker images place.
 
 
 
 
 
-Docker Compose 		:       Docker-compose is a tool for defininng and running multi containe docker application.
+# Docker Container	
 
-
-
-
-Docker volume		:       Docker  voulme  preferred   as  mechanism  to  persist data  generated  and used by a container.
-
-
-
-
-Docker Swarm 	 	:      Docker swarm is a , clustering and scheduling tool  for docker container.  
+Docker container are set of executabale package that contain all library and dependency for a particular
+application to running efficiently in different-different  environmenet.
+And this is also known as, - Docker containers are running instance of docker image	 
 
 
 
 
 
-Downloading docker in ubuntu
+# Docker Compose 		  
+
+Docker-compose is a tool for defininng and running multi containe docker application.
 
 
 
-  step1  :    Updtae your system first
+
+# Docker volume		
+
+Docker  voulme  preferred   as  mechanism  to  persist data  generated  and used by a container.
+
+
+
+
+# Docker Swarm 	 	   
+
+Docker swarm is a , clustering and scheduling tool  for docker container.  
+
+
+
+
+
+# Downloading docker in ubuntu
+
+
+
+ # step1  :    Updtae your system first
 
             >> sudo apt-get update
 
 
 
-   step2 :   Install docker by typing these commands -
+  # step2 :   Install docker by typing these commands -
 
             >> apt install docker.io                          
 		
 
 
-   step3 :  After this Command check the download done or not
+  # step3 :  After this Command check the download done or not
            
             >> ubuntu@ip-172-31-42-184:~$ docker --version
     
