@@ -1,17 +1,17 @@
 
-1. Launch one Ubuntu instance and execute below steps to install kops.
+# 1. Launch one Ubuntu instance and execute below steps to install kops.
 
 
-2. kops binary download
+# 2. kops binary download
 
->> curl -LO https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
+>> curl -LO https://github.com/kubernetes/kops/releases/download/$(curl https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
 
 >> chmod +x kops-linux-amd64
 >> sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 
 
-3. aws cli setup to enable ubuntu to interact with aws.
+# 3. aws cli setup to enable ubuntu to interact with aws.
 
 >>  apt-get update
 >>  apt-get install -y python-pip 
@@ -21,7 +21,7 @@
 
 
 
-4.
+# 4.
 - Create IAM user & make a note of access key & secruity key
 - Create S3 bucket and enable versioning
 
@@ -31,7 +31,7 @@ Give access & security access key details here..
 
 
 
-5. kubectl installation
+# 5. kubectl installation
 
 >>  curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 
@@ -42,18 +42,18 @@ Give access & security access key details here..
 
 
 
-6. Environment variables setup -- Remember cluster name should ends with k8s.local
+# 6. Environment variables setup -- Remember cluster name should ends with k8s.local
 updated these two vars in .bashrc & .profile in ~ dir.
 
 >> export KOPS_CLUSTER_NAME=sarfraz.k8s.local
 >> export KOPS_STATE_STORE=s3://"Bucket_name"
 
-# set in Variabel for everytime
+set in Variabel for everytime
 
 >>  vi  ~ /.bashrc
 
 
-7. Create cluster -- This will actually prepare the configuration files.
+# 7. Create cluster -- This will actually prepare the configuration files.
 
 >> kops create cluster \
   --node-count=1 \
@@ -95,18 +95,18 @@ Edit master's security group:
 - Make sure 443 port is allowed from ANYWHERE in aws security group.
 
 
-8. deploying dashboard feature
+# 8. deploying dashboard feature
 
 >>  kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
 
 
 
-Dashboard access URL
+# Dashboard access URL
 
 >>  https://"DNS URL  of master Instance"/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/overview
 
 
-9. To get admin user's password::
+# 9. To get admin user's password::
 
 >>  kops get secrets kube --type secret -oplaintext 
 
@@ -115,14 +115,14 @@ Or
 >>   grep password: ~/.kube/config 
 
 
-10 . Launch kubernetes url:
+# 10 . Launch kubernetes url:
 
 http://master dns/ui 
     admin
     passwrod
 
 
-11. Token Generation for admin
+# 11. Token Generation for admin
 
 >>  kops get secrets admin --type secret -oplaintext
 
@@ -131,43 +131,18 @@ http://master dns/ui
 >>  kubectl get nodes -- To get the nodes status
 
 
-12. Deploy hello-minicube to validate
+# 12. Deploy hello-minicube to validate
 
 >> kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080
 
 
-13.
+# 13.
 
 >> kubectl expose deployment hello-minikube --type=NodePort
 
 >>  kubectl get service
 
 https://master-dns:nodeport/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
