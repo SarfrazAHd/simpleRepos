@@ -40,7 +40,7 @@ Give access & security access key details here..
     >>  echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 
     >>   sudo apt-get update
-  >>  sudo apt -y install kubectl
+    >>  sudo apt -y install kubectl
 
 
 
