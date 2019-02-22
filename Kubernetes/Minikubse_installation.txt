@@ -1,59 +1,75 @@
-				Minikube installation in Ubuntu
+# Minikube installation in Ubuntu
 
 
 Commands -
 
-Step 1: Update system
->> 	sudo apt-get update
->> 	sudo apt-get install apt-transport-https
->> 	sudo apt-get upgrade
+# Step 1: Update system
+
+		>>  sudo apt-get update
+		>>  sudo apt-get install apt-transport-https
+		>>  sudo apt-get upgrade
 
 
 
-Step 2: Install KVM or VirtualBox Hypervisor
->> 	sudo apt install virtualbox virtualbox-ext-pack
+# Step 2: Install KVM or VirtualBox Hypervisor
 
-Step 3: Download minikube
->> 	wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
->> 	chmod +x minikube-linux-amd64
->> 	sudo mv minikube-linux-amd64 /usr/local/bin/minikube
+		>>  sudo apt install virtualbox virtualbox-ext-pack
+
+# Step 3: Download minikube
+
+		>>   wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+		
+		>>   chmod +x minikube-linux-amd64
+		
+		>>   sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 
 # confirm version installation
->> 	minikube version
+
+		>> minikube version
 
 
 Step 4: Install kubectl on Ubuntu 18.04
->> 	curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
->> 	echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 
->> 	sudo apt update
->> 	sudo apt -y install kubectl
->>	apt install -y docker.io
+		>>  curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+		
+		>>  echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+
+		>>  sudo apt update
+		
+		>>  sudo apt -y install kubectl
+		
+		>>  apt install -y docker.io
 
 
 # check kubectl version
->> 	kubectl version -o json 
+
+		>>  kubectl version -o json 
 
 
 
-Step 5: Starting minikube
->> 	minikube start
+# Step 5: Starting minikube
 
->>  	sudo -E minikube start --vm-driver=none        	# starting minikube in host instead of any  virtualbox or machine
+		>>  minikube start
 
->> 	kubectl cluster-info
->> 	kubectl get nodes
->> 	minikube ssh
->> 	minikube stop
->> 	minikube addons list
->> 	minikube dashboard
->> 	minikube dashboard --url
+		>>  sudo -E minikube start --vm-driver=none  , (starting minikube in host instead of any  virtualbox or machine)       	
+		
+		>>  kubectl cluster-info
+		
+		>>  kubectl get nodes
+		
+		>>  minikube ssh
+		
+		>>  minikube stop
+		
+		>>  minikube addons list
+		
+		>>  minikube dashboard
+		
+		>>  minikube dashboard --url
          
 # if you get an error using minikube  dashboard command 
-# fire this command -	 >>    sudo apt-get install xdg-utils --fix-missing
 
-
-
-
+fire this command -	 
+		>>  sudo apt-get install xdg-utils --fix-missing
 
 
