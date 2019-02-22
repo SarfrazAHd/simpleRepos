@@ -2,14 +2,19 @@
 1. Docker 1.13 or higher
 2. Docker Machine (pre installed for Windows and  Mac)
 
+
 # Step 1 :  Create Docker machines    (Create one machine as manager and others as workers)
 >>  docker-machine create --driver virtualbox manager1
+
 >>  docker-machine create --driver virtualbox worker1
+
 >>  docker-machine create --driver virtualbox worker2
+
 
 # Step 2 :  Check machine created successfully
 >> docker-machine ls
 >> docker-machine ip manager1
+
 
 # Step 3 :  SSH (connect) to docker machine
 >>  docker-machine ssh manager1
@@ -53,6 +58,7 @@ Check the status:
 
 # Step 8 :  Scale service up and down On manager node 
 >>  docker service scale serviceName=2
+ 
  
 # Inspecting Nodes (this command can run only on manager node)
 >> docker node inspect nodename
