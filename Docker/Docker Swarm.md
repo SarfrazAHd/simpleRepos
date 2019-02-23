@@ -44,13 +44,11 @@ In Manager Run command -
       >> docker swarm
 
 
-Step 7 :  Run containers on Docker Swarm
+Step 7 :  Run containers on Docker Swarm and Check the status: 
 
       >> docker service create --replicas 3 -p 80:80 --name serviceName nginx
-
-Check the status:    
-      >> docker service ls
-      >> docker service ps serviceName
+      >>   docker service ls                                                 
+      >>   docker service ps serviceName
    
  Check the service running on all nodes
  Check on the browser by giving ip for all nodes
@@ -82,4 +80,4 @@ Check the status:
 To leave the swarm run commands on every worker node
       >>  docker swarm leave 
       >>  docker-machine stop machineName 		  to stop the machine
-      >> docker-machine rm machineName 		      to remove the machine
+      >> docker-machine rm machineName 		        to remove the machine
