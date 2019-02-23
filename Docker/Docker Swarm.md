@@ -77,7 +77,9 @@ Step 7 :  Run containers on Docker Swarm and Check the status:
       >> docker service rm serviceName
 
 
-To leave the swarm run commands on every worker node
+
       >>  docker swarm leave 
-      >>  docker-machine stop machineName 		  to stop the machine
-      >> docker-machine rm machineName 		        to remove the machine
+      >>  docker-machine stop machineName 		  # to stop the machine
+      >> docker-machine rm machineName 		        # to remove the machine
+      
+       To leave the swarm run commands on every worker node
