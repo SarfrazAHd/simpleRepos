@@ -2,7 +2,7 @@
 
 
 
- Docker   is  an   OS-level   virtualiztion    platform  that  provide  to a doverloper or an IT  administrator  to  run and ship  			their application into  a container with all their dependency and library files.
+ Docker   is  an   OS-level   virtualiztion software  platform  that  provide  to a devloper or an IT  administrator  to  run and ship  			their application into  a container with all their dependency and library files.
 
 
 
