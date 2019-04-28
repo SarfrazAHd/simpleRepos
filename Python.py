@@ -3,7 +3,12 @@ print("Hello Users!!")
 print("this is the first step for me with github")
 
 
-#how to Create a function name in python:
 
-#def functionname(arguments):
-  #your code will place here inside of this function.
+
+file = open("C:\\Users\\Nizam\\Downloads\\New Text Document.txt", "r")
+
+
+for i in file:
+    print(i)
+
+file.close()DE

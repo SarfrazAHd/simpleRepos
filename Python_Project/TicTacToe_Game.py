@@ -23,7 +23,7 @@ def TicTac(buutons):
          button3["text"] == "X" and button6["text"] == "X" and button9["text"] == "X" or
          button1["text"] == "X" and button5["text"] == "X" and button9["text"] == "X" or
          button3["text"] == "X" and button5["text"] == "X" and button7["text"] == "X" ):
-        tkinter.messagebox.showinfo("Winner X", "X! You won this game" )
+         tkinter.messagebox.showinfo("Winner X", "X! You won this game" )
         
     elif(button1["text"] == "O" and button2["text"] == "O" and button3["text"] == "O" or
          button4["text"] == "O" and button5["text"] == "O" and button6["text"] == "O" or
