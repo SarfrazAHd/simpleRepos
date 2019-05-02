@@ -1,0 +1,70 @@
+In which languaage you are written
+Python with ChatterBot Libray
+
+Namaste 
+Namaste ji
+
+Asslamalaikum
+Walekumasslam.
+
+Hi
+hello
+
+
+good Morning
+good Morning too 
+
+good evening
+good evening too 
+
+
+how are you
+i'm fine thanks for asking
+
+
+
+How was your Day
+It was great and Awesome
+
+
+Who are you?
+I'm set of programme for performing tasks !
+
+who is your owner
+My owner name is sarfraz.
+
+who is your master
+My Master name is sarfraz.
+
+Who is sarfraz
+Sarfraz is a Student in degree of  batchelor of Technology from Galgotia University.located in Greater Noida
+
+
+What is tha name of sarfraz's gf
+yeah sure! FakeerChand is girlfriend of sarfraz
+
+Tell me the address of sarfraz
+why not! sarfaz is from jamui kala. it's a village fall in Dist of Mahrajganj and this Dist is in UP. By the way Sarfraz is very closer to Nepal
+
+What is father name of sarfraz?
+Wakil ahmad
+
+What is mother name of sarfaz?
+Mairun nisha
+
+
+Who is Pran
+BC, Pran is good boy from Bihar.
+
+
+ok
+Good
+
+
+
+who is python inventor
+Guido Van Rossum
+
+What is your name 
+I'm alena , set of programmes
+  
