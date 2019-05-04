@@ -2,66 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d674ae90-1e38-4864-8c45-303f7a526ad9" name="Default Changelist" comment="Commiting A simple python calculator">
-      <change beforePath="$PROJECT_DIR$/Python_Project/Calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Hospital_mgmt/Dashboard_module.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Hospital_mgmt/Entire_module.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Hospital_mgmt/Update_module.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Music Player/Music_Player.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Music Player/Mute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Music Player/Stop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Music Player/fade2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Music Player/faded.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Music Player/music-player.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Music Player/pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Music Player/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Music Player/speaker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Notepad/Python_text-editor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Notepad/icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/RacingGame.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/car1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/car10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/car13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/car15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/car2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/car3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/car5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/car6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/into_image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/line3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/w2.JPEG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/w3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Racing/y3.JPEG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/StopWatch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/TicTacToe_Game.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/Turtle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/lock.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/school_management/ABOUT_SOFTWARE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/school_management/READ_ME.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/school_management/REGISTRATION.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/school_management/abcd12345.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project/school_management/password_username.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/BinarySearch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/Linked_List.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/OOPS/Bash Script.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/OOPS/Class_and_object(OOPS).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/OOPS/Inheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/OOPS/MultiThreading.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/OOPS/Operator_Overloading.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/OOPS/Polymorphism_DuckTyping.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/OOPS/Types_of_Method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/OOPS/init method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/OOPS/methodOverloading_Overriding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/Python_sqlite3_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/Simple_calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/SingLy_linkedlist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basic/Tic Tac Toe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_Python/HomePage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_Python/LoginPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_Python/PageObjectModel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_Python/UNITTETST6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_Python/Unittest.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/LinkedList-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/LinkedList-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DS_with_Python/LinkedList-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/SingLy_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DS_with_Python/SingLy_linkedlist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +17,7 @@
     <session id="-1630250827">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="87" />
+          <entry key="project.closed" value="88" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
@@ -89,7 +33,7 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="8" />
-          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.31" value="3" />
           <entry key="project.open.time.32" value="4" />
           <entry key="project.open.time.33" value="3" />
           <entry key="project.open.time.34" value="1" />
@@ -116,7 +60,7 @@
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="88" />
+          <entry key="project.opened" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -131,7 +75,7 @@
           <entry key="jsp" value="3" />
           <entry key="md" value="3" />
           <entry key="png" value="26" />
-          <entry key="py" value="203" />
+          <entry key="py" value="205" />
           <entry key="sqlite3" value="1" />
           <entry key="txt" value="6" />
           <entry key="xml" value="6" />
@@ -146,7 +90,7 @@
           <entry key="Kubernetes YAML" value="8" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="203" />
+          <entry key="Python" value="205" />
           <entry key="XML" value="6" />
           <entry key="YAML" value="14" />
         </counts>
@@ -155,7 +99,7 @@
         <counts>
           <entry key="Conv" value="359" />
           <entry key="dummy" value="117" />
-          <entry key="py" value="74680" />
+          <entry key="py" value="75882" />
           <entry key="txt" value="423" />
           <entry key="yaml" value="241" />
           <entry key="yml" value="3606" />
@@ -165,14 +109,14 @@
         <counts>
           <entry key="Kubernetes YAML" value="2238" />
           <entry key="PLAIN_TEXT" value="899" />
-          <entry key="Python" value="74680" />
+          <entry key="Python" value="75882" />
           <entry key="YAML" value="1609" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -189,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python_Project/StopWatch.py" />
         <option value="$PROJECT_DIR$/Python_Project/Tic Tac Toe.py" />
         <option value="$PROJECT_DIR$/Python/databse_connection.py" />
         <option value="$PROJECT_DIR$/Python_Project/HMS.py" />
@@ -240,10 +183,11 @@
         <option value="$PROJECT_DIR$/Python.py" />
         <option value="$PROJECT_DIR$/Python_Project/school_management/REGISTRATION.py" />
         <option value="$PROJECT_DIR$/Python/Chat_bot/chat.py" />
+        <option value="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -269,7 +213,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SimpleRepos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleRepos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleRepos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleRepos" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleRepos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleRepos" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="DS_with_Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Nizam/PycharmProjects/SimpleRepos/Python_basic/OOPS/Inheritance.py" />
@@ -301,7 +269,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Python">
+  <component name="RunManager" selected="Python.Middle_element_of_LinkedList-1">
+    <configuration name="Middle_element_of_LinkedList-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SimpleRepos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DS_with_Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Operator_Overloading" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SimpleRepos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -386,27 +375,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Types_of_Method" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SimpleRepos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_basic/OOPS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_basic/OOPS/Types_of_Method.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="methodOverloading_Overriding" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SimpleRepos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -430,19 +398,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.RacingGame (1)" />
-      <item itemvalue="Python.Types_of_Method" />
       <item itemvalue="Python.Operator_Overloading" />
       <item itemvalue="Python.methodOverloading_Overriding" />
       <item itemvalue="Python.SingLy_linkedlist" />
       <item itemvalue="Python.Python" />
+      <item itemvalue="Python.Middle_element_of_LinkedList-1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Middle_element_of_LinkedList-1" />
         <item itemvalue="Python.Python" />
         <item itemvalue="Python.SingLy_linkedlist" />
         <item itemvalue="Python.methodOverloading_Overriding" />
         <item itemvalue="Python.Operator_Overloading" />
-        <item itemvalue="Python.Types_of_Method" />
       </list>
     </recent_temporary>
   </component>
@@ -516,20 +484,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="2" weight="0.1845238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.33878887" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.34789917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27659574" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49776787" weight="0.32569557" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4985119" visible="true" weight="0.4811784" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985119" weight="0.4811784" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -566,7 +534,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commiting A simpl" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kubernetes_Yaml/docker-compose.yml" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1036" />
@@ -575,28 +542,14 @@
     <entry file="file://$PROJECT_DIR$/Kubernetes_Yaml/Pod.yml" />
     <entry file="file://$PROJECT_DIR$/Kubernetes_Yaml/Deployment.yml" />
     <entry file="file://$PROJECT_DIR$/Kubernetes_Yaml/Service.yml" />
-    <entry file="file://$PROJECT_DIR$/Python_Project/StopWatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project/StopWatch.py" />
     <entry file="file://$PROJECT_DIR$/ETE_Exam_practice.py" />
-    <entry file="file://$PROJECT_DIR$/Python_Project/Music Player/music-player.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project/Music Player/music-player.ico" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Music Player/play-button.png" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Music Player/music-player.png" />
     <entry file="file://$PROJECT_DIR$/Python_Project/EncryptorDecryptor.py" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Youtube_downloader.py" />
-    <entry file="file://$PROJECT_DIR$/Python_Project/Racing/RacingGame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="274" column="8" lean-forward="true" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project/Racing/RacingGame.py" />
     <entry file="file://$PROJECT_DIR$/Python/background_img.py" />
     <entry file="file://$PROJECT_DIR$/file_Handling2.py" />
     <entry file="file://$PROJECT_DIR$/File_Handling.py" />
@@ -611,32 +564,14 @@
     <entry file="file://$PROJECT_DIR$/Python_Project/Python_text-editor.py" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Notepad/text-lines.ico" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Music Player/Player.py" />
-    <entry file="file://$PROJECT_DIR$/Python_Project/Calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project/Calculator.py" />
     <entry file="file://$PROJECT_DIR$/TestNg.xml" />
     <entry file="file://$PROJECT_DIR$/Demo.jsp" />
     <entry file="file://$PROJECT_DIR$/Pom.xml" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Hospital_mgmt/HMS.gif" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Hospital_mgmt/Home_module.py" />
-    <entry file="file://$PROJECT_DIR$/Python_Project/Hospital_mgmt/Dashboard_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Project/Music Player/Music_Player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1169">
-          <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project/Hospital_mgmt/Dashboard_module.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Project/Music Player/Music_Player.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -644,70 +579,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Project/Hospital_mgmt/Update_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="92" column="78" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/Python_sqlite3_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Project/Notepad/Python_text-editor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project/Hospital_mgmt/Update_module.py" />
+    <entry file="file://$PROJECT_DIR$/Python_basic/Python_sqlite3_connection.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Project/Notepad/Python_text-editor.py" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Student Database Management/Student-Database.py" />
-    <entry file="file://$PROJECT_DIR$/Python_basic/Tic Tac Toe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/BinarySearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Inheritance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Polymorphism_DuckTyping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Class_and_object(OOPS).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/init method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_basic/Tic Tac Toe.py" />
+    <entry file="file://$PROJECT_DIR$/Python_basic/BinarySearch.py" />
+    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Inheritance.py" />
+    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Polymorphism_DuckTyping.py" />
+    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Class_and_object(OOPS).py" />
+    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/init method.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-818483743/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -715,34 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Operator_Overloading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/methodOverloading_Overriding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Types_of_Method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_basic/SingLy_linkedlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1362">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Operator_Overloading.py" />
+    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/methodOverloading_Overriding.py" />
+    <entry file="file://$PROJECT_DIR$/Python_basic/OOPS/Types_of_Method.py" />
+    <entry file="file://$PROJECT_DIR$/Python_basic/SingLy_linkedlist.py" />
     <entry file="file://$PROJECT_DIR$/Hello.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -753,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Kube_Deployments.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -767,23 +617,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Project/school_management/REGISTRATION.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="407" column="48" selection-start-line="407" selection-start-column="48" selection-end-line="407" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project/school_management/REGISTRATION.py" />
     <entry file="file://$PROJECT_DIR$/Python/Chat_bot/chat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

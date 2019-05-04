@@ -91,11 +91,16 @@ class LinkedList:
                 current = current.get_next()
         return False
 
+
+
 lst = LinkedList()
 
 lst.insert(Node(1))
 lst.insert(Node(2))
-lst.insert(Node("Third Node"))
+lst.insert(Node(4))
+lst.insert(Node(5))
+lst.insert(Node(6))
+lst.insert(Node(7))
 lst.Display()
 
 print("\n", lst.get_size())
