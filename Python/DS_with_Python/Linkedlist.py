@@ -1,108 +1,126 @@
 
-
-
-class Node:
-
+class node:
     def __init__(self, data):
-        self.data = data
-        self.next = None
+        self.data=data
+        self.next=None
 
     def get_next(self):
         return self.next
 
-    def set_next(self, n):
-        self.next = n
+    def set_next(self, data):
+        self.next = data
+
 
     def get_data(self):
         return self.data
 
-    def set_data(self, d):
-        self.data = d
+    def set_data(self, data):
+        self.data=data
+
 
 
 class LinkedList:
-
     def __init__(self):
-        self.head = None
-        self.size = 0
+        self.head=None
+        self.size=0
+
 
     def get_size(self):
         return self.size
 
-    def insert(self, new_data):
+
+    def insert(self, itm):
+        new_node=node(itm)
+        new_node.next = self.head
+        self.head=new_node
+        self.size +=1
+
+
+    def delete(self,itm):
+
+        pre = None
+        curr = self.head
+
+        while curr:
+            if curr.get_data() ==itm:
+                if pre:
+                    pre.set_next(curr.get_next())
+
+                else:
+                    self.head = curr.get_next()
+                self.size -=1
+                return "Element Removed"
+            prev = curr
+            curr = curr.get_next()
+        return False
+
+
+    def search(self,itm):
+
+        curr = self.head
+
+        while curr: 
+            if curr.get_data() == itm:
+                return "Element "+ str(itm) +" found in LinkedList "
+            curr = curr.get_next()
+        return "element not found in LinkedList"
+
+
+
+
+    def display(self):
 
         if self.head is None:
-            self.head = new_data
-
-        else:
-            lastnode = self.head
-
-            while True:
-                if lastnode.next is None:
-                    break;
-
-                lastnode = lastnode.next
-            lastnode.next = new_data
-        self.size += 1
-
-
-    def Display(self):
-
-        if self.head is None:
-            print("Sorry !! Empty Linkded-list")
-
-      
-        current = self.head
+            print("Empty LinkedList")
+        current= self.head
 
         while True:
             if current is None:
                 break
 
-            print(current.data, end=" -> ")
+            print(current.data, end=" <- ")
             current = current.next
 
-    def remove(self, deleting_data):
-        prev_node = None
-        current = self.head
+
+    def get_middle(self):
+
+        fast_ptr= self.head
+        slow_ptr= self.head
 
 
-        while current:
-            if current.get_data() == deleting_data:
-                if prev_node:
-
-                    prev_node.set_next(current.get_next())
-                else:
-                    current = current.get_next()
-                self.size -= 1
-                return True  # data removed
-            else:
-                prev_node = current
-                current = current.get_next()
-        return False  # data not found
-
-    def find(self, d):
-        current = self.head
-
-        while current:
-            if current.get_data() == d:
-                print("Element found ")
-                return d
-            else:
-                current = current.get_next()
-        return False
+        if self.head is not None:
+            while(fast_ptr is not None and fast_ptr.next is not None):
+                fast_ptr = fast_ptr.next.next
+                slow_ptr = slow_ptr.next
+            print("\nMidlle element is ", slow_ptr.data)
 
 
 
-lst = LinkedList()
+lst=LinkedList()
 
-lst.insert(Node(1))
-lst.insert(Node(2))
-lst.insert(Node(4))
-lst.insert(Node(5))
-lst.insert(Node(6))
-lst.insert(Node(7))
-lst.Display()
+lst.insert(10)
+lst.insert(11)
+lst.insert(21)
+lst.insert(10)
+lst.insert(12)
+lst.insert(42)
+lst.insert(31)
+lst.insert(22)
+lst.insert(100)
+lst.insert(19)
+lst.insert(10)
+lst.insert(1000)
 
-print("\n", lst.get_size())
+
+lst.display()
+print("\n",lst.get_size())
+
+
+
+
+
+
+
+
 
 
