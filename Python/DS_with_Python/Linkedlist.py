@@ -42,15 +42,15 @@ class LinkedList:
         curr = self.head
 
         while curr:
-            if curr.get_data() ==itm:
+            if curr.get_data() == itm:
                 if pre:
                     pre.set_next(curr.get_next())
 
                 else:
                     self.head = curr.get_next()
-                self.size -=1
+                self.size -= 1
                 return "Element Removed"
-            prev = curr
+            pre = curr
             curr = curr.get_next()
         return False
 
@@ -61,7 +61,7 @@ class LinkedList:
 
         while curr: 
             if curr.get_data() == itm:
-                return "Element "+ str(itm) +" found in LinkedList "
+                return "Element " + str(itm) + " found in LinkedList "
             curr = curr.get_next()
         return "element not found in LinkedList"
 
@@ -113,7 +113,7 @@ lst.insert(1000)
 
 
 lst.display()
-print("\n",lst.get_size())
+print("\n", lst.get_size())
 
 
 

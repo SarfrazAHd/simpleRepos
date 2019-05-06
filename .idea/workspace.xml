@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d674ae90-1e38-4864-8c45-303f7a526ad9" name="Default Changelist" comment="Commiting A simple python calculator">
-      <change afterPath="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/LinkedList-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/LinkedList-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DS_with_Python/LinkedList-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/SingLy_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DS_with_Python/SingLy_linkedlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DS_with_Python/Detecting_Loop_in_LinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DS_with_Python/Reverse_Of_LinekdList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/Linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DS_with_Python/Linkedlist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +17,7 @@
     <session id="-1630250827">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="88" />
+          <entry key="project.closed" value="89" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
@@ -25,7 +25,7 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
@@ -60,7 +60,7 @@
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="89" />
+          <entry key="project.opened" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,7 +75,7 @@
           <entry key="jsp" value="3" />
           <entry key="md" value="3" />
           <entry key="png" value="26" />
-          <entry key="py" value="205" />
+          <entry key="py" value="210" />
           <entry key="sqlite3" value="1" />
           <entry key="txt" value="6" />
           <entry key="xml" value="6" />
@@ -90,7 +90,7 @@
           <entry key="Kubernetes YAML" value="8" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="205" />
+          <entry key="Python" value="210" />
           <entry key="XML" value="6" />
           <entry key="YAML" value="14" />
         </counts>
@@ -99,7 +99,7 @@
         <counts>
           <entry key="Conv" value="359" />
           <entry key="dummy" value="117" />
-          <entry key="py" value="75882" />
+          <entry key="py" value="78336" />
           <entry key="txt" value="423" />
           <entry key="yaml" value="241" />
           <entry key="yml" value="3606" />
@@ -109,7 +109,7 @@
         <counts>
           <entry key="Kubernetes YAML" value="2238" />
           <entry key="PLAIN_TEXT" value="899" />
-          <entry key="Python" value="75882" />
+          <entry key="Python" value="78336" />
           <entry key="YAML" value="1609" />
         </counts>
       </usages-collector>
@@ -133,9 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python_Project/Tic Tac Toe.py" />
-        <option value="$PROJECT_DIR$/Python/databse_connection.py" />
-        <option value="$PROJECT_DIR$/Python_Project/HMS.py" />
         <option value="$PROJECT_DIR$/Python_Project/Hosital_mgmt_system.py" />
         <option value="$PROJECT_DIR$/Python_Project/Hospital_mgmt/Hosital_mgmt_system.py" />
         <option value="$PROJECT_DIR$/Kubernetes_Yaml/kubernets_deployment.yml" />
@@ -184,10 +181,13 @@
         <option value="$PROJECT_DIR$/Python_Project/school_management/REGISTRATION.py" />
         <option value="$PROJECT_DIR$/Python/Chat_bot/chat.py" />
         <option value="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" />
+        <option value="$PROJECT_DIR$/Python/DS_with_Python/Linkedlist.py" />
+        <option value="$PROJECT_DIR$/Python/DS_with_Python/Reverse_Of_LinekdList.py" />
+        <option value="$PROJECT_DIR$/Python/DS_with_Python/Detecting_Loop_in_LinkedList.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -214,7 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,6 +236,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,7 +269,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Middle_element_of_LinkedList-1">
+  <component name="RunManager" selected="Python.Detecting_Loop_in_LinkedList">
+    <configuration name="Detecting_Loop_in_LinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SimpleRepos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DS_with_Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DS_with_Python/Detecting_Loop_in_LinkedList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Middle_element_of_LinkedList-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SimpleRepos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,27 +304,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Operator_Overloading" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SimpleRepos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_basic/OOPS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_basic/OOPS/Operator_Overloading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,6 +354,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Reverse_Of_LinekdList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SimpleRepos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DS_with_Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DS_with_Python/Reverse_Of_LinekdList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SingLy_linkedlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SimpleRepos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -375,42 +396,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="methodOverloading_Overriding" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SimpleRepos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_basic/OOPS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_basic/OOPS/methodOverloading_Overriding.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.RacingGame (1)" />
-      <item itemvalue="Python.Operator_Overloading" />
-      <item itemvalue="Python.methodOverloading_Overriding" />
       <item itemvalue="Python.SingLy_linkedlist" />
       <item itemvalue="Python.Python" />
       <item itemvalue="Python.Middle_element_of_LinkedList-1" />
+      <item itemvalue="Python.Reverse_Of_LinekdList" />
+      <item itemvalue="Python.Detecting_Loop_in_LinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Detecting_Loop_in_LinkedList" />
+        <item itemvalue="Python.Reverse_Of_LinekdList" />
         <item itemvalue="Python.Middle_element_of_LinkedList-1" />
         <item itemvalue="Python.Python" />
         <item itemvalue="Python.SingLy_linkedlist" />
-        <item itemvalue="Python.methodOverloading_Overriding" />
-        <item itemvalue="Python.Operator_Overloading" />
       </list>
     </recent_temporary>
   </component>
@@ -484,14 +484,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="2" weight="0.1845238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.34789917" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.34697217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27659574" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,13 +534,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commiting A simpl" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1036" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kubernetes_Yaml/Pod.yml" />
-    <entry file="file://$PROJECT_DIR$/Kubernetes_Yaml/Deployment.yml" />
     <entry file="file://$PROJECT_DIR$/Kubernetes_Yaml/Service.yml" />
     <entry file="file://$PROJECT_DIR$/Python_Project/StopWatch.py" />
     <entry file="file://$PROJECT_DIR$/ETE_Exam_practice.py" />
@@ -636,6 +629,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DS_with_Python/Linkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="108" column="15" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DS_with_Python/Detecting_Loop_in_LinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <marker date="1557126751744" expanded="true" signature="110:115" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DS_with_Python/Reverse_Of_LinekdList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="974">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <marker date="1557126109263" expanded="true" signature="13:14" ph="..." />
+            <marker date="1557126109263" expanded="true" signature="13:18" ph="..." />
+            <marker date="1557126109263" expanded="true" signature="545:861" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
