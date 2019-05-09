@@ -1,11 +1,10 @@
-
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   name: apache httpd server
 
 spec:
-  replicas: 4                             # number of copy of pods to run
+  replicas: 4                             # number of copy of pods to run 
   template:                               # Specification each  of pods
 
     metadata:

@@ -12,3 +12,11 @@ spec:
   ports:
     - port: 8080
       targetPort: 80
+
+  port: 
+    - port: 9090
+      targetPort: 90
+
+  port: 
+    - port: 8181
+      targetPort: 91
