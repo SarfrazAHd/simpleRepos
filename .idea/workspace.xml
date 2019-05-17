@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d674ae90-1e38-4864-8c45-303f7a526ad9" name="Default Changelist" comment="Commiting A simple python calculator">
-      <change afterPath="$PROJECT_DIR$/Python/DS_with_Python/Detecting_Loop_in_LinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DS_with_Python/Reverse_Of_LinekdList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/Linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DS_with_Python/Linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Hospital_mgmt/Dashboard_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Hospital_mgmt/Entire_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Hospital_mgmt/Update_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/school_management/ABOUT_SOFTWARE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/school_management/READ_ME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/school_management/REGISTRATION.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/school_management/abcd12345.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/school_management/password_username.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_basic/1 (2).py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_basic/1 (2).py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +24,7 @@
     <session id="-1630250827">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="89" />
+          <entry key="project.closed" value="90" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
@@ -27,8 +34,8 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -60,7 +67,7 @@
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="90" />
+          <entry key="project.opened" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,7 +82,7 @@
           <entry key="jsp" value="3" />
           <entry key="md" value="3" />
           <entry key="png" value="26" />
-          <entry key="py" value="210" />
+          <entry key="py" value="214" />
           <entry key="sqlite3" value="1" />
           <entry key="txt" value="6" />
           <entry key="xml" value="6" />
@@ -90,7 +97,7 @@
           <entry key="Kubernetes YAML" value="8" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="210" />
+          <entry key="Python" value="214" />
           <entry key="XML" value="6" />
           <entry key="YAML" value="14" />
         </counts>
@@ -99,7 +106,7 @@
         <counts>
           <entry key="Conv" value="359" />
           <entry key="dummy" value="117" />
-          <entry key="py" value="78336" />
+          <entry key="py" value="79778" />
           <entry key="txt" value="423" />
           <entry key="yaml" value="241" />
           <entry key="yml" value="3606" />
@@ -109,14 +116,51 @@
         <counts>
           <entry key="Kubernetes YAML" value="2238" />
           <entry key="PLAIN_TEXT" value="899" />
-          <entry key="Python" value="78336" />
+          <entry key="Python" value="79778" />
           <entry key="YAML" value="1609" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_management.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="112" column="42" lean-forward="true" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2417">
+              <caret line="302" lean-forward="true" selection-start-line="302" selection-end-line="302" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python_Project/Hosital_mgmt_system.py" />
-        <option value="$PROJECT_DIR$/Python_Project/Hospital_mgmt/Hosital_mgmt_system.py" />
         <option value="$PROJECT_DIR$/Kubernetes_Yaml/kubernets_deployment.yml" />
         <option value="$PROJECT_DIR$/ETE_Exam_practice.py" />
         <option value="$PROJECT_DIR$/Kubernetes_Yaml/Demo_kube.yml" />
@@ -177,13 +219,15 @@
         <option value="$PROJECT_DIR$/Python_basic/SingLy_linkedlist.py" />
         <option value="$PROJECT_DIR$/Kube_Deployments.yml" />
         <option value="$PROJECT_DIR$/Kube_Service.yml" />
-        <option value="$PROJECT_DIR$/Python.py" />
         <option value="$PROJECT_DIR$/Python_Project/school_management/REGISTRATION.py" />
         <option value="$PROJECT_DIR$/Python/Chat_bot/chat.py" />
         <option value="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" />
         <option value="$PROJECT_DIR$/Python/DS_with_Python/Linkedlist.py" />
         <option value="$PROJECT_DIR$/Python/DS_with_Python/Reverse_Of_LinekdList.py" />
         <option value="$PROJECT_DIR$/Python/DS_with_Python/Detecting_Loop_in_LinkedList.py" />
+        <option value="$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/index.py" />
+        <option value="$PROJECT_DIR$/Python.py" />
+        <option value="$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_management.py" />
       </list>
     </option>
   </component>
@@ -230,7 +274,21 @@
               <item name="SimpleRepos" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleRepos" type="462c0819:PsiDirectoryNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="DS_with_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleRepos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleRepos" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Contact-Management-System-In-PYTHON-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleRepos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleRepos" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Student_management_system" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Detecting_Loop_in_LinkedList">
+  <component name="RunManager" selected="Python.Student_management">
     <configuration name="Detecting_Loop_in_LinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SimpleRepos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,27 +341,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DS_with_Python/Detecting_Loop_in_LinkedList.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Middle_element_of_LinkedList-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SimpleRepos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DS_with_Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,7 +412,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SingLy_linkedlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Student_management" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SimpleRepos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -383,11 +420,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Python_Project/Student_management_system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_basic/SingLy_linkedlist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_management.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SimpleRepos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -398,19 +456,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.RacingGame (1)" />
-      <item itemvalue="Python.SingLy_linkedlist" />
       <item itemvalue="Python.Python" />
-      <item itemvalue="Python.Middle_element_of_LinkedList-1" />
       <item itemvalue="Python.Reverse_Of_LinekdList" />
       <item itemvalue="Python.Detecting_Loop_in_LinkedList" />
+      <item itemvalue="Python.index" />
+      <item itemvalue="Python.Student_management" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Student_management" />
+        <item itemvalue="Python.Python" />
+        <item itemvalue="Python.index" />
         <item itemvalue="Python.Detecting_Loop_in_LinkedList" />
         <item itemvalue="Python.Reverse_Of_LinekdList" />
-        <item itemvalue="Python.Middle_element_of_LinkedList-1" />
-        <item itemvalue="Python.Python" />
-        <item itemvalue="Python.SingLy_linkedlist" />
       </list>
     </recent_temporary>
   </component>
@@ -485,13 +543,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="2" weight="0.1845238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.34697217" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.3371522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27659574" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,8 +593,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commiting A simpl" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kubernetes_Yaml/Service.yml" />
-    <entry file="file://$PROJECT_DIR$/Python_Project/StopWatch.py" />
     <entry file="file://$PROJECT_DIR$/ETE_Exam_practice.py" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Music Player/music-player.ico" />
     <entry file="file://$PROJECT_DIR$/Python_Project/Music Player/play-button.png" />
@@ -618,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -643,9 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <marker date="1557126751744" expanded="true" signature="110:115" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,10 +700,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="974">
           <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2417">
+          <caret line="302" lean-forward="true" selection-start-line="302" selection-end-line="302" />
           <folding>
-            <marker date="1557126109263" expanded="true" signature="13:14" ph="..." />
-            <marker date="1557126109263" expanded="true" signature="13:18" ph="..." />
-            <marker date="1557126109263" expanded="true" signature="545:861" ph="..." />
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="112" column="42" lean-forward="true" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
