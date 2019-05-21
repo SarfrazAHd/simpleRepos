@@ -2,10 +2,10 @@ def fact(x):
     f=1
     for i in range(1,x+1):
         f=f*i
-        print(f)
+    print(f)
 
 
-fact(20)
+fact(36)
 
 
 
@@ -14,9 +14,5 @@ def add(a):
     for i in range(1,a+1):
         b=b*i
     print(b)
-
-
-
-
-add(10)        
+#add(10)        
           

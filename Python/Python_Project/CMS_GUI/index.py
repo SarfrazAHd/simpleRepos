@@ -12,9 +12,9 @@ screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
 x = (screen_width / 2) - (width / 2)
 y = (screen_height / 2) - (height / 2)
-root.geometry("%dx%d+%d+%d" % (width, height, x, y))
+root.geometry('600x350+0+0')
 root.resizable(0, 0)
-root.config(bg="#6666ff")
+root.config(bg="grey")
 
 # ============================VARIABLES===================================
 FIRSTNAME = StringVar()
@@ -215,8 +215,8 @@ def AddNewWindow():
     Female = Radiobutton(RadioGroup, text="Female", variable=GENDER, value="Female", font=('arial', 14)).pack(side=LEFT)
 
     # ===================LABELS==============================
-    lbl_title = Label(FormTitle, text="Adding New Contacts", font=('arial', 16), bg="#66ff66", width=300)
-    lbl_title.pack(fill=X)
+    lbl_title = Label(FormTitle, text="Add New Contacts", font=('arial', 16), bg="ghost white", width=150)
+    lbl_title.pack()
     lbl_firstname = Label(ContactForm, text="Firstname", font=('arial', 14), bd=5)
     lbl_firstname.grid(row=0, sticky=W)
     lbl_lastname = Label(ContactForm, text="Lastname", font=('arial', 14), bd=5)
@@ -244,7 +244,7 @@ def AddNewWindow():
     contact.grid(row=5, column=1)
 
     # ==================BUTTONS==============================
-    btn_addcon = Button(ContactForm, text="Save", width=50, command=SubmitData)
+    btn_addcon = Button(ContactForm, font=('arial', 12, 'bold') ,text="Save", bg='grey',fg='white',width=10, command=SubmitData)
     btn_addcon.grid(row=6, columnspan=2, pady=10)
 
 
@@ -268,10 +268,10 @@ lbl_title.pack(fill=X)
 # ============================ENTRY=======================================
 
 # ============================BUTTONS=====================================
-btn_add = Button(MidLeft, text="+ ADD NEW", bg="#66ff66", relief=SUNKEN, font=('times new roman', 12, ''),
+btn_add = Button(MidLeft, text="+ ADD NEW", bg="#66ff66", relief=FLAT, font=('times new roman', 12, ''),
                  command=AddNewWindow)
 btn_add.pack()
-btn_delete = Button(MidRight, text="DELETE", bg="red", command=DeleteData)
+btn_delete = Button(MidRight, text="DELETE",fg='white', bg="Brown", relief=SUNKEN, font=('times new roman', 12, ''), command=DeleteData)
 btn_delete.pack(side=RIGHT)
 
 # ============================TABLES======================================

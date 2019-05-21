@@ -10,7 +10,7 @@ root.title("Home Page")
 
 # connecting database
 
-conn = sqlite3.connect("C:/Users/Nizam/Database/Hospital_mgmt_db.db")
+conn = sqlite3.connect("Hospital_mgmt_db.db")
 curs = conn.cursor()
 
 sql = "SELECT * FROM Appointment"
@@ -36,13 +36,13 @@ appointment.place(x=240, y=70)
 
 usr=Label(root, text="Enter username", font=('times new roman', 16, 'bold'), fg="black")
 usr.place(x=326, y=150)
-usr_ent=Entry(root, font=('times new roman', 13, ''), width=28, relief=FLAT)
+usr_ent=Entry(root, font=('times new roman', 13, ''),width=28, relief=FLAT)
 usr_ent.place(x=285, y=180)
 
 
 Pass=Label(root, text="Enter Password", font=('times new roman', 16, 'bold'), fg="black")
 Pass.place(x=326, y=235)
-Pass_ent=Entry(root, font=('times new roman', 13, ''), width=28, relief=FLAT)
+Pass_ent=Entry(root, font=('times new roman', 13, ''), show='*',width=28, relief=FLAT)
 Pass_ent.place(x=285, y=265)
 
 
@@ -270,7 +270,7 @@ def seceond_window():
 	root.mainloop()
 
 def login():
-	if usr_ent.get()=="12345" and Pass_ent.get()=="12345":
+	if usr_ent.get()=="abhishek" and Pass_ent.get()=="pragati":
 		seceond_window()
 
 	else:
