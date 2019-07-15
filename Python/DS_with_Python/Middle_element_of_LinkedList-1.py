@@ -39,11 +39,6 @@ class LinkedList:
         print("Middle element is", temp.data)
 
 
-
-
-
-
-
 lst = LinkedList()
 lst.insert(10)
 lst.insert(20)

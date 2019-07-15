@@ -7,7 +7,7 @@ import sqlite3
 
 # connecting database
 
-conn = sqlite3.connect("C:/Users/Nizam/Database/Hospital_mgmt_db.db")
+conn = sqlite3.connect("C:/Users/Nizam/PycharmProjects/SimpleRepos/Python/Python_Project/HMS/Hospital_mgmt_db.db")
 curs = conn.cursor()
 
 lists = []

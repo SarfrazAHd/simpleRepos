@@ -19,20 +19,8 @@ class A:
             return m1
 
 
-
-
-
 a = A()
 print(a.sum(10, 20, 30))
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,2 +1,2 @@
-Usernmae: Abhishek
+Usernmae: abhishek
 password: pragati

@@ -2,35 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d674ae90-1e38-4864-8c45-303f7a526ad9" name="Default Changelist" comment="Commiting A simple python calculator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/Pandas_intro-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/Pandas_intro-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/READ ME FIRST !!!!.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/pythontut.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/File/Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Project/File/Contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/File/file.db" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Project/File/file.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Hospital_mgmt_system/Contact.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Hospital_mgmt_system/Dashboard_module.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Hospital_mgmt_system/Entire_module.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Hospital_mgmt_system/Update_module.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Music Player/Music_Player.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Music Player/Mute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Music Player/Stop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Music Player/fade2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Music Player/faded.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Music Player/music-player.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Music Player/pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Music Player/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Music Player/speaker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/StopWatch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Student_management_system/New Text Document.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_database.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_management.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/TicTacToe_Game.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_Project/Turtle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python_basic/Factotial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_basic/Factotial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Python_basic/Prime_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DS_with_Python/Middle_element_of_LinkedList-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DS_with_Python/output.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Advance/Inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Advance/Inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Advance/Python_sqlite3_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Advance/Python_sqlite3_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Advance/methodOverloading_Overriding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Advance/methodOverloading_Overriding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/CMS_CLI/file.db" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Project/CMS_CLI/file.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/CMS_GUI/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/CMS_GUI/pythontut.db" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Project/CMS_GUI/pythontut.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/HMS/Dashboard_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Project/HMS/Dashboard_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/HMS/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Project/HMS/Readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_Project/TIC-TAC-TOE/TicTacToe_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_Project/TIC-TAC-TOE/TicTacToe_Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_basic/1 (2).py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_basic/1 (2).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_basic/Calender_in_Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_basic/Calender_in_Python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Python_basic/Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_basic/Practice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +28,14 @@
     <session id="-1630250827">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="92" />
+          <entry key="project.closed" value="93" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="3" />
@@ -85,7 +71,7 @@
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="93" />
+          <entry key="project.opened" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,7 +86,7 @@
           <entry key="jsp" value="3" />
           <entry key="md" value="3" />
           <entry key="png" value="26" />
-          <entry key="py" value="221" />
+          <entry key="py" value="227" />
           <entry key="sqlite3" value="1" />
           <entry key="txt" value="6" />
           <entry key="xml" value="6" />
@@ -115,7 +101,7 @@
           <entry key="Kubernetes YAML" value="8" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="221" />
+          <entry key="Python" value="227" />
           <entry key="XML" value="6" />
           <entry key="YAML" value="14" />
         </counts>
@@ -124,7 +110,7 @@
         <counts>
           <entry key="Conv" value="359" />
           <entry key="dummy" value="117" />
-          <entry key="py" value="82802" />
+          <entry key="py" value="84184" />
           <entry key="txt" value="423" />
           <entry key="yaml" value="241" />
           <entry key="yml" value="3606" />
@@ -134,38 +120,14 @@
         <counts>
           <entry key="Kubernetes YAML" value="2238" />
           <entry key="PLAIN_TEXT" value="899" />
-          <entry key="Python" value="82802" />
+          <entry key="Python" value="84184" />
           <entry key="YAML" value="1609" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/Python_Project/File/Contact.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <marker date="1558179523071" expanded="true" signature="84:85" ph="..." />
-                <marker date="1558179523071" expanded="true" signature="1592:3731" ph="..." />
-                <marker date="1558179523071" expanded="true" signature="2201:2572" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pandas/Pandas_intro-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Kubernetes_Yaml/Demo2.yaml" />
-        <option value="$PROJECT_DIR$/Kubernetes_Yaml/docker-compose.yml" />
         <option value="$PROJECT_DIR$/Kubernetes_Yaml/Pod.yml" />
         <option value="$PROJECT_DIR$/Kubernetes_Yaml/Deployment.yml" />
         <option value="$PROJECT_DIR$/Kubernetes_Yaml/Service.yml" />
@@ -233,6 +193,8 @@
         <option value="$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_management.py" />
         <option value="$PROJECT_DIR$/Python/Python_Project/File/Contact.py" />
         <option value="$PROJECT_DIR$/Pandas/Pandas_intro-1.py" />
+        <option value="$PROJECT_DIR$/Python/Python_basic/Calender_in_Python.py" />
+        <option value="$PROJECT_DIR$/Python/Python_basic/Practice.py" />
       </list>
     </option>
   </component>
@@ -262,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,13 +235,18 @@
             <path>
               <item name="SimpleRepos" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleRepos" type="462c0819:PsiDirectoryNode" />
-              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleRepos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleRepos" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_basic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,15 +256,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Nizam\PycharmProjects\SimpleRepos\Python_Project" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nizam\PycharmProjects\SimpleRepos\Python_basic\OOPS" />
       <recent name="C:\Users\Nizam\PycharmProjects\SimpleRepos\Python_Project\Music Player" />
       <recent name="C:\Users\Nizam\PycharmProjects\SimpleRepos\Python_Project" />
       <recent name="C:\Users\Nizam\PycharmProjects\SimpleRepos\Python" />
       <recent name="C:\Users\Nizam\PycharmProjects\SimpleRepos\Python_Project\Hospital_mgmt" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nizam\PycharmProjects\SimpleRepos\Python\Python_basic" />
+      <recent name="C:\Users\Nizam\PycharmProjects\SimpleRepos\Python_Project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,7 +280,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Pandas_intro-1">
+  <component name="RunManager" selected="Python.Practice">
+    <configuration name="Calender_in_Python" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SimpleRepos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Python_basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python_basic/Calender_in_Python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Contact" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SimpleRepos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -333,27 +323,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Music_Player" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SimpleRepos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Python_Project/Music Player" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python_Project/Music Player/Music_Player.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Pandas_intro-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SimpleRepos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -367,6 +336,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Pandas_intro-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SimpleRepos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Python_basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python_basic/Practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -417,42 +407,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Student_management" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SimpleRepos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Python_Project/Student_management_system" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_management.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.RacingGame (1)" />
-      <item itemvalue="Python.Student_management" />
-      <item itemvalue="Python.Music_Player" />
       <item itemvalue="Python.Contact" />
       <item itemvalue="Python.REGISTRATION" />
       <item itemvalue="Python.Pandas_intro-1" />
+      <item itemvalue="Python.Practice" />
+      <item itemvalue="Python.Calender_in_Python" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Practice" />
+        <item itemvalue="Python.Calender_in_Python" />
         <item itemvalue="Python.Pandas_intro-1" />
         <item itemvalue="Python.REGISTRATION" />
         <item itemvalue="Python.Contact" />
-        <item itemvalue="Python.Student_management" />
-        <item itemvalue="Python.Music_Player" />
       </list>
     </recent_temporary>
   </component>
@@ -530,10 +499,10 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1845238" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.15848215" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.5777414" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.35679215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27659574" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,11 +545,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commiting A simpl" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python_Project/Youtube_downloader.py" />
-    <entry file="file://$PROJECT_DIR$/Python_Project/Racing/RacingGame.py" />
-    <entry file="file://$PROJECT_DIR$/Python/background_img.py" />
-    <entry file="file://$PROJECT_DIR$/file_Handling2.py" />
-    <entry file="file://$PROJECT_DIR$/File_Handling.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -681,13 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="307" lean-forward="true" selection-start-line="307" selection-end-line="307" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_Project/Contact-Management-System-In-PYTHON-master/index.py" />
     <entry file="file://$PROJECT_DIR$/Python/Python_Project/NOTEPAD/Python_text-editor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -695,52 +653,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Python_Project/Music Player/Music_Player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="200" column="28" lean-forward="true" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_management.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1242">
-          <caret line="200" column="56" lean-forward="true" selection-start-line="200" selection-start-column="56" selection-end-line="200" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_Project/Music Player/Music_Player.py" />
+    <entry file="file://$PROJECT_DIR$/Python/Python_Project/Student_management_system/Student_management.py" />
     <entry file="file://$PROJECT_DIR$/Python/Python_Project/SCHOOL_MANAGEMENT_SYSTEM/REGISTRATION.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Python_Project/File/Contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <marker date="1558179523071" expanded="true" signature="84:85" ph="..." />
-            <marker date="1558179523071" expanded="true" signature="1592:3731" ph="..." />
-            <marker date="1558179523071" expanded="true" signature="2201:2572" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/Pandas_intro-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_Project/File/Contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_basic/Prime_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_basic/Factorial_using_recursion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_basic/Calender_in_Python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_basic/BubbleSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Python_basic/Practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

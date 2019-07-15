@@ -37,32 +37,31 @@ def TicTac(buutons):
 
 buttons=StringVar()
 
-button1=Button(root, text=" " , font=('Times 26 bold'),width=8, height=4,fg="blue",command=lambda:TicTac(button1))
+button1=Button(root, text=" " , font=('Times 26 bold'),width=6, height=2,fg="blue",command=lambda:TicTac(button1))
 button1.grid(row=1 ,column=0, sticky = S+N+E+W )
 
-button2=Button(root, text=" " , font=('Times 26 bold'),height=4, width=8 ,fg="blue",command=lambda:TicTac(button2))
+button2=Button(root, text=" " , font=('Times 26 bold'),height=2, width=6 ,fg="blue",command=lambda:TicTac(button2))
 button2.grid(row=1 ,column=1, sticky = S+N+E+W )
 
-button3=Button(root, text=" " , font=('Times 26 bold '),height=4, width=8 ,fg="blue",command=lambda:TicTac(button3))
+button3=Button(root, text=" " , font=('Times 26 bold '),height=2, width=6 ,fg="blue",command=lambda:TicTac(button3))
 button3.grid(row=1 ,column=2, sticky = S+N+E+W )
 
-button4=Button(root, text=" " , font=('Times 26 bold '),height=4, width=8 ,fg="blue",command=lambda:TicTac(button4))
+button4=Button(root, text=" " , font=('Times 26 bold '),height=2, width=6 ,fg="blue",command=lambda:TicTac(button4))
 button4.grid(row=2 ,column=0, sticky = S+N+E+W )
 
-button5=Button(root, text=" " , font=('Times 26 bold '),height=4, width=8 ,fg="blue",command=lambda:TicTac(button5))
+button5=Button(root, text=" " , font=('Times 26 bold '),height=2, width=6 ,fg="blue",command=lambda:TicTac(button5))
 button5.grid(row=2 ,column=1, sticky = S+N+E+W )
 
-button6=Button(root, text=" " , font=('Times 26 bold'),height=4, width=8,fg="blue",command=lambda:TicTac(button6))
+button6=Button(root, text=" " , font=('Times 26 bold'),height=2, width=6,fg="blue",command=lambda:TicTac(button6))
 button6.grid(row=2 ,column=2, sticky = S+N+E+W )
 
-button7=Button(root, text=" " , font=('Times 26 bold '),height=4, width=8 ,fg="blue",command=lambda:TicTac(button7))
+button7=Button(root, text=" " , font=('Times 26 bold '),height=2, width=6 ,fg="blue",command=lambda:TicTac(button7))
 button7.grid(row=3 ,column=0, sticky = S+N+E+W )
 
-button8=Button(root, text=" " , font=('Times 26 bold'),height=4, width=8 ,fg="blue",command=lambda:TicTac(button8))
+button8=Button(root, text=" " , font=('Times 26 bold'),height=2, width=6 ,fg="blue",command=lambda:TicTac(button8))
 button8.grid(row=3 ,column=1, sticky = S+N+E+W )
 
-button9=Button(root, text=" " , font=('Times 26 bold'),height=4, width=8 ,fg="blue",command=lambda:TicTac(button9))
+button9=Button(root, text=" " , font=('Times 26 bold'),height=2, width=6 ,fg="blue",command=lambda:TicTac(button9))
 button9.grid(row=3 ,column=2, sticky = S+N+E+W )
-
 
 root.mainloop()

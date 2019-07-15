@@ -11,7 +11,7 @@ class A:
         print("This is function 1")
 
     def function2(self):
-        print("This is function2")
+        print("This is function 2")
 
 
 class B:
