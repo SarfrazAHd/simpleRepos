@@ -1,11 +1,3 @@
-print("Hello Users!!")
-
-print("this is the first step for me with github")
-
-file = open("C:\\Users\\Nizam\\Downloads\\New Text Document.txt", "r")
-
-
-for i in file:
-    print(i)
-
-file.close()
+binary = input("Enter number in Binary Format: ");
+decimal = int(binary, 2);
+print(binary,"in Decimal =",decimal);

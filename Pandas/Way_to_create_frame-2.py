@@ -21,4 +21,7 @@ data=[(1,35,6,"Rain"),( 2,23,7,'Sunny'),
 df=pd.DataFrame(data, columns=['day','Temperature',
 	'Windspeed','Event'])
 
-print(df)
+
+print(df.head())
+
+

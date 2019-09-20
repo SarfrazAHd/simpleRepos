@@ -18,7 +18,6 @@ def srt(a):
 
 
 item= [5,-1,6,7,89,0,25,10,9,45]
-
 srt(item)
 print("sorted elements are:",item)
 

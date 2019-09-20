@@ -6,7 +6,7 @@ import datetime
 class MyfirstTest(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Firefox(executable_path="C:\Users\SARFRAZ ANSARI\Desktop\Automation\Selenium\Selenium_Webdrivers\geckodriver.exe")
+        self.driver = webdriver.Firefox(executable_path="C:/Users/Nizam/Desktop/Automation/Selenium_Webdrivers/chromedriver.exe")
 
     def test_demo(self):
         driver=self.driver
@@ -18,5 +18,8 @@ class MyfirstTest(unittest.TestCase):
 
     def tearDown(self):
         self.driver.close()
+
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -15,8 +15,8 @@ def speak(audiosString):
     tts.save("audio.mp3")
 
 
-    wmp= r "C:\Program Files (x86)\Windows Media Player\wmplayer.exe"
-        media_file=os.path.abspath/(os.path.realpath("Desktop\text.txt"))
+    wmp= r "C:\\Program Files (x86)\\Windows Media Player\\wmplayer.exe"
+        media_file=os.path.abspath/(os.path.realpath("Desktop\\text.txt"))
         p=subprocess.call(wmp,media_file)
 
 def recordAudio():

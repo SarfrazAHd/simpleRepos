@@ -4,7 +4,8 @@ from numpy import *
 
 #arr= linspace(0, 15,16)
 
-#arr= linspace(0, 15)
+arr= linspace(0, 15)
+print(arr)
 
 #arr= arange(0, 15,2)
 
@@ -18,9 +19,9 @@ from numpy import *
 
 #arr= array.random.random(1, 5)
 
-x= array([[1,2,3],[4,5,6],[7,8,9]]) 
-y=array([2,3,5])
+#x= array([[1,2,3],[4,5,6],[7,8,9]]) 
+#y=array([2,3,5])
 
-print(y*9/5+32)
+#print(y*9/5+32)
 
 

@@ -5,7 +5,7 @@ temperature=[50,51,34,134,23,75,2,42]
 plt.title("Weather")
 plt.xlabel("day")
 plt.ylabel("Temperature")
-plt.plot(day,temperature,color="red", linewidth='3', linestyle="dotted")
+plt.plot(day,temperature,color="red", linewidth='10', linestyle="dotted")
 plt.show()
 
 

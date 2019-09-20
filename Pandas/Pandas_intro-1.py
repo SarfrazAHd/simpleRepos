@@ -26,6 +26,7 @@ df = pd.DataFrame(weather_data)
 # x=df['Temperature']
 # print("Mean of the Temperature is ",x.mean())
 
-print(df.describe())
+#print(df.describe())
+print(df.info())
 
 # print(df['Temperature']==df['Temperature'].max())

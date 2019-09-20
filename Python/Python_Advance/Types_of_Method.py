@@ -45,7 +45,6 @@ g1 = galgotia(14, 45, 145)
 g1.instance_method()
 g1.accesor()
 print(g1.class_method())
-
 g1.static_method()
 
 

@@ -14,4 +14,4 @@ x = "sarfraz"
 res = curs.execute(sql, (x,))
 
 for i in res:
-    print(i)
+    print(i, end=" ")

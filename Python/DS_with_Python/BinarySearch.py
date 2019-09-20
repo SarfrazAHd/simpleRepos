@@ -25,7 +25,6 @@ else:
 
 position = -1
 
-
 def BSearch(a, b):
     l = 0
     u = len(itm)
