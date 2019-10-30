@@ -27,6 +27,9 @@ def DecimalConversion(x):
 
 
 
+print(int('1010010',2))
+
+
 
 def BinarytoDecimal(x):
 	binary = x
@@ -78,7 +81,7 @@ def octalToHexa(x):
 	    print(binary,"in Hexa =",hex(temp))
 
 
-octalToHexa('522')
+#octalToHexa('522')
 
 
 
