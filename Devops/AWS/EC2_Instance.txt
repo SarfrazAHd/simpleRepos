@@ -1,0 +1,79 @@
+
+
+1 => commmand for getting Java Directory.
+
+    /usr/sbin/alternatives --config java                   # Paste this in terminal and hit enter.
+  
+
+Output=>
+    
+   There are 2 programs which provide 'java'.
+
+  Selection    Command
+-----------------------------------------------
+*+ 1           java-1.8.0-openjdk.x86_64 (/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64/jre/bin/java)
+   2           /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.77-0.b03.el7_2.x86_64-debug/jre/bin/java
+
+
+
+Java_directory => /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64 
+
+
+
+2 => installing wget in your linux system
+
+      yum install wget -y
+ 
+  
+
+
+
+3 => Installing jenkins in RedHat
+
+
+	Installation
+	Add the Jenkins repository to the yum repos, and install Jenkins from here.
+
+	1=> sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+	2=> sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+	3=> sudo yum install jenkins
+
+
+
+	Installation of a stable version
+	There is also a LTS YUM repository for the LTS Release Line
+
+	1=> sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+	2=> sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+	3=> sudo yum install jenkins
+
+
+4 => Extracting tar.gz file in Linux
+     
+        tar -zvxf "filname".gz
+
+5 => Updating Linux Redhat System
+
+        sudo yum -y update
+
+6 => Installing docker in Ubuntu
+
+    step1 :   Updtae your system first
+                sudo apt-get update
+
+    step2 :   Install docker by typing this.
+
+               apt install docker.io
+
+    step3 :  After this Command check the download done or not
+           
+              ubuntu@ip-172-31-42-184:~$ docker --version
+
+              Docker version 17.03.2-ce, build f5ec1e2                                           ## and you are done !! Congrats docker has been succesfully installed in your system.
+
+  
+
+
+
+
+

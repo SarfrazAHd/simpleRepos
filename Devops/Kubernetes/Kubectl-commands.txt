@@ -1,0 +1,27 @@
+1.  Creating deployment template using kubectl command instead of yml file
+
+>>    kubectl  run  "Name of deployment " --image=nginx  --replicas=1 --port= 80
+
+2.  Deleting deployment
+
+>>    kubectl  get  deployment
+
+>>    kubectl  delete  deployment "Name of deployment "
+
+
+3.  Exposing port  outside using service facility
+
+>>   kubectl expose deployment "Name of deployment " --port=8080  --target-port=80 --type=LoadBalancer
+
+
+4.  Deleting pods 
+
+>>   kubectl  delete  pods
+>>   kubectl  delete  pods "pods name"
+
+5.  Deleting  services
+
+>>  kubectl get svc 
+
+>> kubectl  delete  "service name" 
+
