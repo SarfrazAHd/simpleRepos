@@ -1,0 +1,81 @@
+{% extends 'Layout.html'%}
+
+{% block body %}
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{url_for('static', filename='img/Admin_img.jpg') }}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Admin Panel</h1>
+            <span class="subheading">From Where Everything is in under control</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+
+    
+
+
+        <a href="/Admin/new_post"><BUTTON style="padding: 5px 25px;margin-top:-5%; margin-right:75%;border-radius:5px;" class="btn btn-success float-right">New Post + </BUTTON>
+        </a> 
+
+<a href="/Logout"><button style="padding: 5px 25px; margin-left:70%; margin-top:-5%; border-radius:5px;"type="submit" class="btn btn-danger float-left" id="sendMessageButton">Log Out</button></a>
+
+       
+
+
+
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Title</th>
+      <th scope="col">Date</th>
+      <th scope="col">Edit</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+  
+
+
+    {% for post in Post%}
+    <tbody>
+    <tr>
+      <th scope="row">{{ post.Id }}</th>
+      <td>{{ post.Title }}</td>
+      <td>{{ post.Date }}</td>
+
+
+      <td><a href="/Edit_post/{{post.Id}}"><buttons  class="btn btn-outline-primary" style="border-style: none;padding: 5px 15px;border-radius:20px">Edit</button></td></a>
+
+
+
+
+      <td><a href="/Delete_post/{{post.Id}}"><button  class="btn btn-outline-danger" style="border-style: none;padding: 5px 15px;border-radius:20px">Delete</button></a></td>
+
+    
+   
+    {% endfor %}
+
+  </tbody>
+</table>
+      </div>
+    </div>
+  </div>
+  <br>
+<a href="/"><button style="padding: 5px 25px; border-radius:5px; margin-left:565px;" type="submit" class="btn btn-info" id="sendMessageButton"> Home Page </button></a>
+
+
+
+  <hr>
+
+  {% endblock %}

@@ -1,0 +1,157 @@
+
+html { 
+  background: url(BG.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.Login_form{
+	height: 520px;
+	width: 400px;
+	top:-50%;
+	font-size:20px;
+	padding:0;
+	margin:0;
+	margin-left: 450px;
+	margin-top:50px;
+	text-align: center;
+	background-color:#fff;
+
+}
+
+
+.image{
+	border-radius:110px;	
+	width:85px;
+	margin-left:15px;
+	margin-top:-20px;
+}
+
+.username
+{
+	font-size:20px;
+	font-family:helvetica;
+	color:orange;
+}
+
+.password
+	{
+	font-size:20px;
+	font-family:Arial;
+	color:orange;
+}
+
+input{
+	width:204px;
+	height:28px;
+	font-size:15px;
+	font-family:helvetica;
+	border:none;
+	border-top:none;
+	border-right: none;
+	border-left:none;
+	border-bottom:2px solid brown;
+	border-radius: 10px;
+	color:black;
+	margin-top:10px;
+}
+
+input:hover{
+	color:red;
+
+}
+
+::placeholder
+{
+	margin-left:10px;
+	padding-left:40px;
+	color:black;
+	font-style:bold;
+
+
+}
+
+
+
+.btn{
+	font-style:2px bold;
+	font-size:22px;
+	width:180px;
+	margin-top:20px;
+	border:none;
+	border-radius:5px;
+	background-color:transparent;
+	border:2px solid brown;
+	transition: 0.3s;
+
+
+}
+.btn:hover{
+	
+  	font-size:25px;
+
+}
+
+.btn1
+{
+	width:80px;
+	margin-top:60px; 
+	margin-left:5px;
+	font-size:14px;
+	border:none;
+	background-color:transparent;
+	border-bottom:1px solid black;
+	transition: 0.5s;
+}
+
+.btn1:hover{
+	color:black;
+	font-size:17px;
+	border:none;
+	border:2px solid brown;
+	border-radius:10px;
+	
+}
+.btn2
+{
+	width:150px;
+	font-size:14px;
+	margin-top: 20px; 
+	margin-left:30px;
+	border:none;
+	background-color:transparent;
+	border-bottom:1px solid black;
+	transition: 0.3s;
+}
+
+.btn2:hover{
+	color:black;
+	font-size:17px;
+	border-bottom-style:1px solid red;
+	border:2px solid brown;
+	border-radius:10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
