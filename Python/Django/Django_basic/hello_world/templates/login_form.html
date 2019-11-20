@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log in </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap4/bootstrap.min.css' %}">
+	<link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/main_styles.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/responsive.css' %}">
+	<style type="text/css">
+		body{
+			background: url({% static 'images/home_slider.jpg' %}) no-repeat center center fixed; 
+				  -webkit-background-size: cover;
+				  -moz-background-size: cover;
+				  -o-background-size: cover;
+				  background-size: cover;
+
+			}
+		form {
+				text-align: center;
+				margin-top:10%;
+				
+				height:300px;
+				margin-left:20%;
+				margin-right:20%;
+				color:white;
+				background-color:transparent;					
+		}
+
+		
+	</style>
+			
+
+<body>
+<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-start">
+						<div class="header_content_inner d-flex flex-row align-items-end justify-content-start">
+							<div class="logo"><a href="index.html">Travello</a></div>
+							<nav class="main_nav">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li class="active"><a href="/">Home</a></li>
+									<li><a href="/services">Services</a></li>
+									<li><a href="/about">About us</a></li>
+									<li><a href="/news">News</a></li>
+									<li><a href="">Account</a></li>
+									<li><a href="/contact">Contact Us</a></li>
+									
+								</ul>
+							</nav>
+						
+							<!-- Hamburger -->
+
+							<div class="hamburger ml-auto">
+								<i class="fa fa-bars" aria-hidden="true"></i>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header_social d-flex flex-row align-items-center justify-content-start">
+			<ul class="d-flex flex-row align-items-start justify-content-start">
+				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</header>
+
+	<form action="/login/" method="post">
+		{% csrf_token %}
+		<h2 style="color:#868e96;">Log in</h2>
+      <label>Username
+      <input type="text" name="uname" class="form-control"  style="width:115%;height:30px;background-color:transparent;color:#343a40;" placeholder="Enter User name"></label><br>
+
+      <label>Password
+      <input type="Password" name="password"  style="width:115%;height:30px;background-color:transparent; color:#343a40;" class="form-control" placeholder="Enter Password name"></label><br>
+
+      <input type="submit" value="Log in" style="width:15%;height:30px; margin-left:3%;" class="btn btn-primary btn-sm"><br>
+       <p style="margin-left:5px;color:#fff;">Not have an account create here<a href="/signup">Create account</a></p>
+
+  </form>
+	  {% for message in messages %}
+
+	  		<h5 align="center" style="color: red;">{{message}}</h5>
+	  {% endfor %}
+
+
+
+
+</body>
+
+</html>

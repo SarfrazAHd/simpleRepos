@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\hello_world",
+    "\\hello_world\\App",
+    "\\hello_world\\templates"
+  ],
+  "SelectedNode": "\\hello_world\\App\\urls.py",
+  "PreviewInSolutionExplorer": false
+}
