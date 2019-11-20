@@ -1,0 +1,5 @@
+#!/bin/bash
+yum install httpd -y
+echo "<html><h1>Hello from public subnet</h1></html>" >/var/www/html/index.html
+chkconfig httpd on
+service httpd start
