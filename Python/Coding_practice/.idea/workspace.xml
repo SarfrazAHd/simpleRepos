@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="293de335-7b88-4d6a-af38-b580abf2bc3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Coding_practice/Pyramid-12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_practice/Pyramid-12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/Number_of_Vowels-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/Number_of_Vowels-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/character_encyption-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/character_encyption-3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Coding/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Coding/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Coding/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Coding/String_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/Binary_search_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/Duplicate_number_in_array_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/Linked_list_11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/Pair_integer_10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/Reverse_of_array_9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/Reverse_of_digit_and_string_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/Series_problem-5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/Series_problem_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/Series_problem_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/get_HCF_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCS_Practice/get_Lcm_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prime_numbers.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1467233419">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.135" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="py" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="22" />
+          <entry key="html" value="236" />
+          <entry key="py" value="13711" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="236" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="13711" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LinkedList/Middle_element_another_method-2.py" />
+        <option value="$PROJECT_DIR$/LinkedList/Linkedlist_and_Operation.py" />
+        <option value="$PROJECT_DIR$/LinkedList/Middle_element_Linkedlst-1.py" />
+        <option value="$PROJECT_DIR$/LinkedList/Reverse_Of_linked_List-3.py" />
+        <option value="$PROJECT_DIR$/LinkedList/Detecting_Loop_in_LinkedList-4.py" />
+        <option value="$PROJECT_DIR$/PC_practice.py" />
+        <option value="$PROJECT_DIR$/TCS_Coding/1.py" />
+        <option value="$PROJECT_DIR$/TCS_Coding/2.py" />
+        <option value="$PROJECT_DIR$/TCS_Coding/3.py" />
+        <option value="$PROJECT_DIR$/TCS_Coding/String_4.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/PC_practice.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Practice-1.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/get_Lcm_1.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/get_HCF_2.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Reverse_of_digit_and_string_3.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Series_problem_4.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Series_problem-5.py" />
+        <option value="$PROJECT_DIR$/TCS_Coding/Series_problem_6.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Series_problem_6.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Binary_search_7.py" />
+        <option value="$PROJECT_DIR$/Array/Duplicate-number_more_than_2-5.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Duplicate_number_in_array_8.py" />
+        <option value="$PROJECT_DIR$/Array/array_reverse-8.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Reverse_of_array_9.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Pair_integer_10.py" />
+        <option value="$PROJECT_DIR$/TCS_Practice/Linked_list_11.py" />
+        <option value="$PROJECT_DIR$/Strings/Duplicate_character_in_string-1.py" />
+        <option value="$PROJECT_DIR$/Strings/Login_file.html" />
+        <option value="$PROJECT_DIR$/Strings/Number_of_Vowels-2.py" />
+        <option value="$PROJECT_DIR$/Strings/character_encyption-3.py" />
+        <option value="$PROJECT_DIR$/Coding_practice/Pyramid-12.py" />
+        <option value="$PROJECT_DIR$/Coding_practice/Practice_file.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Coding_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coding_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nizam\Desktop\Coding_practice\TCS_Practice" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Pyramid-12">
+    <configuration name="Duplicate_character_in_string-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strings/Duplicate_character_in_string-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Linked_list_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TCS_Practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TCS_Practice/Linked_list_11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Number_of_Vowels-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strings/Number_of_Vowels-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Pyramid-12" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding_practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding_practice/Pyramid-12.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="character_encyption-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strings/character_encyption-3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Linked_list_11" />
+      <item itemvalue="Python.Duplicate_character_in_string-1" />
+      <item itemvalue="Python.Number_of_Vowels-2" />
+      <item itemvalue="Python.character_encyption-3" />
+      <item itemvalue="Python.Pyramid-12" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Pyramid-12" />
+        <item itemvalue="Python.character_encyption-3" />
+        <item itemvalue="Python.Number_of_Vowels-2" />
+        <item itemvalue="Python.Duplicate_character_in_string-1" />
+        <item itemvalue="Python.Linked_list_11" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="293de335-7b88-4d6a-af38-b580abf2bc3e" name="Default Changelist" comment="" />
+      <created>1563689408422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563689408422</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" x="198" y="108" width="390" height="611" id="Project" order="2" visible="true" weight="0.13169643" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2831424" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.43229166" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31587562" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LinkedList/Linkedlist_and_Operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/Middle_element_another_method-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/Middle_element_Linkedlst-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/Reverse_Of_linked_List-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/Detecting_Loop_in_LinkedList-4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/get_HCF_2.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/get_Lcm_1.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Coding/1.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/Reverse_of_digit_and_string_3.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/Series_problem_4.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Coding/2.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/Series_problem-5.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Coding/3.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/Series_problem_6.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Coding/String_4.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/Binary_search_7.py" />
+    <entry file="file://$PROJECT_DIR$/Array/Duplicate-number_more_than_2-5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/Duplicate-number_in_array-2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/array_reverse-8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/Duplicate_number_in_array_8.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/Reverse_of_array_9.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/Pair_integer_10.py" />
+    <entry file="file://$PROJECT_DIR$/TCS_Practice/Linked_list_11.py" />
+    <entry file="file://$PROJECT_DIR$/Strings/Login_file.html" />
+    <entry file="file://$PROJECT_DIR$/Strings/Duplicate_character_in_string-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/Number_of_Vowels-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/character_encyption-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coding_practice/Pyramid-12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coding_practice/Practice_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
