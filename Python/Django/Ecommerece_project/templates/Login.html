@@ -1,0 +1,110 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<style>
+    html { 
+		  background: url({% static 'images/bg_6.jpg' %}) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+
+	body{
+		 padding-top:5%;
+	}
+
+    form { 
+        
+        padding:10px 20px 30px;
+        width:40%;
+        margin-left:27%;
+
+    } 
+    /*assign full width inputs*/ 
+      
+    input[type=text], 
+    input[type=password] { 
+        width: 38%; 
+        padding: 12px 20px; 
+        margin: 28px 0; 
+        display: inline-block; 
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
+        margin-left:10%;
+        border-radius:4px;
+    } 
+    /*set a style for the buttons*/ 
+      
+    button { 
+        background-color: #3498DB; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 33px 0; 
+        border: none; 
+        cursor: pointer; 
+        width: 25%;
+        margin-left:38%;
+        height:40px; 
+        border-radius:5%;
+    } 
+    /* set a hover effect for the button*/ 
+      
+    button:hover { 
+        opacity: 0.8; 
+    } 
+    /*set extra style for the cancel button*/ 
+      
+    .imgcontainer { 
+        text-align: center; 
+        margin: 24px 0 12px 0; 
+    } 
+    /*set image properties*/ 
+      
+    img.avatar { 
+        width: 25%; 
+        border-radius: 50%; 
+    } 
+    /*set padding to the container*/ 
+      
+    .container { 
+        padding: 5px; 
+    } 
+    /*set the forgot password text*/ 
+      
+    span.psw { 
+        margin-left:15%;
+        font-size:18px;
+    } 
+     span.ps2 { 
+        margin-left:11%;
+        font-size:18px;
+    } 
+   label{
+   	margin-left:15%;
+   }
+ 
+</style>
+
+<body>
+    <form action="/acount/login/" method="post">
+    	{%csrf_token%}
+        <div class="imgcontainer">
+            <img src="{% static 'images/Lalu-logo.png' %}" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required><br>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required><br>
+            <button type="submit">Login</button><br>
+            <span class="psw">Not have an account <a href="/acount/new_acount/">  Create here</a></span>
+            <span class="ps2">Back to <a href="/">Home</a></span>
+        </div>
+    </form>
+    {%for msg in messages%}
+    <h3 align="center" style="color:green">{{msg}}</h1>
+    {%endfor%}
+</body>
+
+</html>

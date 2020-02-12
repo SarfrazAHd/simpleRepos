@@ -1,0 +1,8 @@
+{
+    "python.linting.mypyEnabled": false,
+    "python.linting.mypyPath": "Path://",
+    "editor.fontSize": 16,
+    "files.autoSave": "onFocusChange",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}

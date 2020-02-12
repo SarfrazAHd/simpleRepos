@@ -1,0 +1,77 @@
+
+{% extends 'Layout.html'%}
+{% block body %}
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{url_for('static',filename='img/Admin_img.jpg') }}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Admin Panel</h1>
+            <span class="subheading">From Where Everything is in under control &#128526; &#128526;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+       <h1> Add New Post</h1><br>
+        <form name="sentMessage" action="/Admin/new_post" method="post" id="contactForm" novalidate>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>Title</label>
+              <input type="text" class="form-control" placeholder="Title" id="name" name="title" required data-validation-required-message="Please enter your name.">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+
+              <label>Subtitle</label>
+              <input type="text" name="subtitle" class="form-control" placeholder="Subtitle" id="Subtitle" required data-validation-required-message="Please enter your subtitle address.">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label>Date</label>
+              <input type="tel" class="form-control" name="date" placeholder="Date" id="phone" required data-validation-required-message="Please Date">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+
+            <div class="control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label>Slug</label>
+              <input type="tel" class="form-control" name="slug" placeholder="Slug" id="Slug" required data-validation-required-message="Please Enter Slug">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>Content</label>
+              <textarea rows="5" class="form-control" placeholder="Content" name="content" id="Content" required data-validation-required-message="Please Enter Your Content "></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <br>
+          <div id="success"></div>
+          <div class="form-group">
+            <button style="padding: 5px 25px;border-radius:20px;" type="submit" class="btn btn-info" id="sendMessageButton">Add Post</button>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <hr>
+
+  {% endblock %}
