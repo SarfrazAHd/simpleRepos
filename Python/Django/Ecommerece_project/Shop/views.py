@@ -1,3 +1,4 @@
+
 from django.shortcuts import render , redirect,  get_object_or_404
 from django.http import HttpResponse
 from . models import *
@@ -11,13 +12,13 @@ from rest_framework.response import Response
 from django.core.paginator import Paginator
 from Ecommerece_project.settings import EMAIL_HOST_USER
 from django.core.mail import send_mail
+from django.views.decorators.csrf import csrf_exempt
 from . import checksum
 
-MERCHANT_KEY ="MERCHANT_KEY _HERE"
 
+MERCHANT_KEY='your-mearchant-key'
 
 # Create your views here.
-
 def Home(request):
 	new_prod = New_prod_arrival.objects.all()
 	flash_prod = Flash_latest_prod.objects.all()
@@ -144,18 +145,29 @@ def Cart(request):
 
 
 def Checkout(request):
-	if request.method=="POST":
-		f_name=request.POST['f_name']
-		l_name=request.POST['l_name']
-		country=request.POST['country']
-		street=request.POST['street']
-		town_city=request.POST['town']
-		pin=request.POST['postal']
-		phone=request.POST['phone']
-		email=request.POST['email']
-		ordr=order(firstName=f_name,laststName=l_name,country=country,address=street,town_city=town_city,postal=pin,phone=phone,email=email)
-		ordr.save()
+	if request.method =='POST':
+        f_name=request.POST['f_name']
+        l_name=request.POST['l_name']
+        street=request.POST['street']
+        town_city=request.POST['town']
+        pin=request.POST['postal']
+        phone=request.POST['phone']
+        email=request.POST['email']
+        param_dict ={
+            'MID':'your-merchant-id',
+            'ORDER_ID':'this_is_order_id',
+            'TXN_AMOUNT':'100',
+            'CUST_ID':email,
+            'INDUSTRY_TYPE_ID':'Retail',
+            'WEBSITE':'WEBSTAGING',
+            'CHANNEL_ID':'WEB',
+            'CALLBACK_URL':'http://127.0.0.1:8000/handlerequest/'}
+        param_dict['CHECKSUMHASH'] = checksum.generate_checksum(param_dict,MERCHANT_KEY)
+        print(param_dict)
+        return render(request, 'paytm.html', {'param_dict': param_dict})
+    return render(request,'checkout.html')
     
+
 
 @csrf_exempt
 def handlerequest(request):
@@ -167,14 +179,13 @@ def handlerequest(request):
         if i == 'CHECKSUMHASH':
             checksum = form[i]
 
-    verify = Checksum.verify_checksum(response_dict, MERCHANT_KEY, checksum)
+    verify = checksum.verify_checksum(response_dict, MERCHANT_KEY, checksum)
     if verify:
         if response_dict['RESPCODE'] == '01':
             print('order successful')
         else:
             print('order was not successful because' + response_dict['RESPMSG'])
     return render(request, 'paymentstatus.html', {'response': response_dict})
-
 
 
 
