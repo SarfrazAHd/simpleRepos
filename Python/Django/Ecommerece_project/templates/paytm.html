@@ -1,20 +1,51 @@
+{%load static%}
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Paytm merchant payment page</title>
-</head>
-<body>
-<h1>Redirecting you to the merchant....</h1>
-<h1>Please do not refresh your page....</h1>
-<form action="https://securegw-stage.paytm.in/theia/processTransaction" method="post" name="paytm">
-    {% for key, value in param_dict.items %}
-    <input type="hidden" name="{{key}}" value="{{value}}">
-    {% endfor %}
+<html>
 
-</form>
+<head>
+    <title>Payment</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .loader {
+				  border: 16px solid #f3f3f3;
+				  border-radius: 50%;
+				  border-top: 16px solid #3498db;
+				  width: 120px;
+				  height: 120px;
+				  -webkit-animation: spin 2s linear infinite; /* Safari */
+				  animation: spin 2s linear infinite;
+				  margin-left:45%;
+
+				}
+
+				/* Safari */
+				@-webkit-keyframes spin {
+				  0% { -webkit-transform: rotate(0deg); }
+				  100% { -webkit-transform: rotate(360deg); }
+				}
+
+				@keyframes spin {
+				  0% { transform: rotate(0deg); }
+				  100% { transform: rotate(360deg); }
+				}
+</style>
+</head>
+
+<body><br><br>
+    <h2 align="center">Redirecting you to the merchant....</h2>
+    <h3 align="center">Please do not refresh your page....</h3><br>
+    <form action="https://securegw-stage.paytm.in/theia/processTransaction" method="post" name="paytm">
+        {% for key, value in param_dict.items %}
+        <input type="hidden" name="{{key}}" value="{{value}}">
+        {% endfor %}
+    </form>
+    <br><br>
+    <div class="loader"></div>
 </body>
 <script>
 document.paytm.submit()
 </script>
+</body>
+
 </html>

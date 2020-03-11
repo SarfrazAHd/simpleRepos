@@ -2,120 +2,108 @@
 <!DOCTYPE html>
 <html>
 <style>
-     html { 
-          background: url({% static 'images/bg_6.jpg' %}) no-repeat center center fixed; 
+    html { 
+          background: url({% static 'images/c4.jpg' %}) no-repeat center center fixed; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
         }
-
-    
-
     form { 
-        
-        width:50%;
-        margin-left:20%;
+        width:60%;
+        margin-left:22%;
         margin-top:0%;
-
-
+        background-color:white;
+        opacity:0.9;
+        padding-bottom:10px;
+        padding-top:2px;
+        padding-bottom:30px;
+        border-radius:5px;
     } 
-    /*assign full width inputs*/ 
-      
     input[type=text], 
     input[type=password],
     input[type=email] { 
-        width: 37%; 
+        width: 43%; 
         padding: 12px; 
         margin: 15px 0; 
         display: inline-block; 
         border: 1px solid #ccc; 
         box-sizing: border-box; 
-        
         border-radius:4px;
-        font-size:13px;
-        line-height:5px;
-
+        margin-top:-2px;
+        font-family:Comic Sans MS;
+        font-style: italic;
+        font-size:15px;
     } 
-    /*set a style for the buttons*/ 
-      
     button { 
         background-color: #3498DB; 
         color: white; 
-        padding: 14px 20px; 
         border: none; 
         cursor: pointer; 
-        width: 25%;
-        margin-left:50%;
-        height:40px; 
-        border-radius:5%;
+        width: 20%;
+        margin-left:45%;
+        height:30px; 
+        border-radius:4%;
+        font-family:Candara;
+        font-size:18px;
     } 
-    /* set a hover effect for the button*/ 
-      
-    button:hover { 
-        opacity: 0.8; 
-    } 
-    /*set extra style for the cancel button*/ 
-      
     .imgcontainer { 
         text-align: center; 
         margin: 24px 0 12px 0;
         margin-left:10%; 
-    } 
-    /*set image properties*/ 
-      
+    }    
     img.avatar { 
         width: 25%; 
         border-radius: 50%; 
     } 
-    /*set padding to the container*/ 
-      
     .container { 
         padding: 5px; 
         margin-left:-70px;
     } 
-    /*set the forgot password text*/ 
-      
+  
     span.psw { 
         margin-left:30%;
-        font-size:18px;
+        font-size:16px;
+        font-family:Candara;
     } 
-
     span.ps2 { 
         margin-left:10%;
-        font-size:18px;
+        font-size:16px;
+        font-family:Candara;
     } 
 
    label{
-    margin-left:30%;
-    font-size:18px;
-   }
+        font-size: 17px;
+        font-family:Candara;
+        margin-left:180px;
+      }
+
+      h1{
+        font-size: 47px;
+        font-family:Candara;
+        margin-top:50px;
+        margin-left:20px; 
+      }
 </style>
 <title>Sign Up</title>
 
 <body>
-
     <form action="/acount/new_acount/" method="post">
-        {%csrf_token%}
-        <div class="imgcontainer">
-            <img src="{% static 'images/Lalu-logo.png' %}" alt="Avatar" class="avatar">
-        </div>
+        <h1 align="center">Create New Acount</h1>
         <div class="container">
-           <label>First Name <input type="text" name="f_name" style="margin-left:70px;"  placeholder="First Name" required></label><br> 
-           <label>Last Name <input type="text" name="l_name" style="margin-left:70px;"  placeholder="Last Name" required></label><br>
-           <label>Username<input type="text" name="u_name" style="margin-left:70px;"  placeholder="Username" required></label><br>
-           <label>Email<input type="email" name="email" style="margin-left:108px;" placeholder="Email" required></label><br>
-           <label>Password <input type="password" name="pswd1" style="margin-left:80px;"  placeholder="Password" required></label>
-           <br>
-           <label>Confirm Password <input type="password" name="pswd2" style="margin-left:15px;" placeholder="Confirm Password" required></label>
-           <button type="submit">Sign Up</button><br><br>
-           <span class="psw">Allready have an acount  <a href="/acount/login/">  Login here</a></span>
-           <span class="ps2">Back to <a href="/">Home</a></span>
-    </div>
+            <label>First Name <input type="text" name="f_name" style="margin-left:70px;" placeholder="First Name" required></label><br>
+            <label>Last Name <input type="text" name="l_name" style="margin-left:70px;" placeholder="Last Name" required></label><br>
+            <label>Username<input type="text" name="u_name" style="margin-left:75px;" placeholder="Username" required></label><br>
+            <label>Email<input type="email" name="email" style="margin-left:110px;" placeholder="Email" required></label><br>
+            <label>Password <input type="password" name="pswd1" style="margin-left:75px;" placeholder="Password" required></label><br>
+            <label>Confirm Password <input type="password" name="pswd2" style="margin-left:17px;" placeholder="Confirm Password" required></label>
+            <button type="submit">Sign Up</button><br><br>
+            <span class="psw">Allready have an acount <a href="/acount/login/"> Login here</a></span>
+            <span class="ps2">Back to <a href="/">Home</a></span>
+        </div>
     </form>
     {%for msg in messages%}
-      
-     <h3 align="center" style="color:green">   {{msg}} </h3> 
+    <h3 align="center" style="color:green"> {{msg}} </h3>
     {%endfor%}
 </body>
 

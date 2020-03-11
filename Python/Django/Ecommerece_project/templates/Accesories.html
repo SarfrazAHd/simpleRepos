@@ -9,7 +9,7 @@
                     {% for prod in acs_prod %}
                     <div class="col-sm-12 col-md-12 col-lg-4 ftco-animate d-flex">
                         <div class="product">
-                            <a href="/shop/view_prod/p_id={{prod.id}}" class="img-prod"><img class="img-fluid" src="{{prod.img.url}}" alt="Colorlib Template">
+                            <a href="/shop/view-prod-item/{{prod.id}}" class="img-prod"><img class="img-fluid" src="{{prod.img.url}}" alt="Colorlib Template">
                                 <div class="overlay"></div>
                                 {% if prod.offer %}
                                 <span class="status">50% Off</span>
@@ -83,11 +83,11 @@
                                     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                         <div class="panel-body">
                                             <ul>
-                                                <li><a id="men_collection">Men's Collection</a></li>
-                                                <li><a href="#">Women's Collection</a></li>
-                                                <li><a href="#">Accesories </a></li>
-                                                <li><a href="#">Clothing</a></li>
-                                                <li><a href="#">Other</a></li>
+                                                <li><a href="/shop/mens">Men's Collection</a></li>
+                                                <li><a href="/shop/womens">Women's Collection</a></li>
+                                                <li><a href="/shop/acs">Accesories </a></li>
+                                                <li><a href="/shop/cloths">Clothing</a></li>
+                                                <li><a href="/shop/others">Other</a></li>
                                             </ul>
                                         </div>
                                     </div>

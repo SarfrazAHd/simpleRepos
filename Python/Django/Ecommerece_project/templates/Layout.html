@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'fonts/material-icon/css/material-design-iconic-font.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/login_style.css'%}">
+    <link rel = "icon" href= "{% static 'images/Lalu-logo.png' %}" type = "image/x-icon">
 </head>
-
 <body class="goto-here">
     <div class="py-1 bg-black">
         <div class="container">
@@ -59,7 +59,7 @@
                     <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
                     <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                    <li class="nav-item cta cta-colored"><a href="/shop/cart" class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
+                    <li class="nav-item cta cta-colored"><a href="/shop/cart" class="nav-link"><span class="icon-shopping_cart"></span>[{{total_item}}]</a></li>
                     <li class="nav-item dropdown">
                         {% if user.is_authenticated%}
                     <li class="nav-item" ><a class="nav-link" style="color:black;" >{{user.username}}</a></li>
@@ -232,6 +232,44 @@
     <script src="{% static 'js/main.js' %}"></script>
     <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
     <script src="{% static 'js/login_main.js' %}"></script>
+    
+         <script>
+        $(document).ready(function() {
+
+            var quantitiy = 0;
+            $('.quantity-right-plus').click(function(e) {
+
+                // Stop acting like a button
+                e.preventDefault();
+                // Get the field name
+                var quantity = parseInt($('#quantity').val());
+
+                // If is not undefined
+
+                $('#quantity').val(quantity + 1);
+
+
+                // Increment
+
+            });
+
+            $('.quantity-left-minus').click(function(e) {
+                // Stop acting like a button
+                e.preventDefault();
+                // Get the field name
+                var quantity = parseInt($('#quantity').val());
+
+                // If is not undefined
+
+                // Increment
+                if (quantity > 0) {
+                    $('#quantity').val(quantity - 1);
+                }
+            });
+
+        });
+        </script>
+
 </body>
 
 </html>

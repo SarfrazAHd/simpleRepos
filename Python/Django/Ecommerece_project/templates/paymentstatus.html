@@ -1,23 +1,21 @@
 {%extends "Layout.html"%}
 {%load static%}
-
 {%block title%}
 <title>Payment status</title>
 {%endblock%}
 {% block body %}
-<div class="container">
-    {{response}}
-    <div class="col my-4">
-
-        <h2>Payment status regarding your order Id {{response.ORDERID}}</h2>
-        {% if response.RESPCODE == '01' %}
-        <h3>Congratulation!! order has been succesfully placed</h3>
-        {% else %}
-        <h3>Transaction failed !! Kindly try after some time</h3>
-        {% endif%}
-
-    </div>
-
+<!--<div class="container"> <br><br> <br>
+    {{response}} <br>
+    <div class="col my-4"> -->
+<div class="hero-wrap hero-bread" style="background-image: url('{% static 'images/c4.jpg' %}'); height:500px;">
+    <h3 align="center" style="background-color:black; width:40%;margin-left:30%;color:white; margin-top:-5%;">Payment status</h3> <br><br>
+    {% if response.RESPCODE == '01' %}
+    <h5 align="center" style="color:black"><b>Congratulation !!</b> your Payment of Rs{{response.TXNAMOUNT}} has been successful <br>
+        Use this reference id <b style="color:red">{{response.ORDERID}} </b>for furhter any query <br>regrarding this transaction <br><br><span style='font-size:100px;'>&#128521;</span>
+    </h5>
+    {% else %}
+    <h5 align="center" style="color:black"><b>Sorry !! </b>Transaction failed Kindly try after some time <br><br><span style='font-size:100px;'>&#128542;</span></h5>
+    {% endif%}
 </div>
+<br><br>
 {% endblock %}
-

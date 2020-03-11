@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'payu',
 ]
 
 MIDDLEWARE = [
@@ -147,6 +146,3 @@ EMAIL_HOST_USER = 'sarafraj.ahmad@galgotiasuniversity.edu.in'
 EMAIL_HOST_PASSWORD = 'Sarfraz@786'
 
 
-
-
-APPEND_SLASH=False
